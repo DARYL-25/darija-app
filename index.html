@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Darija — Apprends le marocain</title>
+<meta name="description" content="Apprends le darija marocain : vocabulaire, conjugaison, phonétique, quiz et variations régionales.">
+<meta name="theme-color" content="#C1272D">
+<link rel="manifest" href="manifest.webmanifest">
+<!-- iOS PWA -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Darija">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <div class="loading-screen">
+    <div class="loading-star">★</div>
+    <p>Chargement…</p>
+  </div>
+</div>
+<nav id="tabbar">
+  <a href="#home" data-tab="home"><span class="ticon">🏠</span><span>Accueil</span></a>
+  <a href="#vocab" data-tab="vocab"><span class="ticon">📚</span><span>Vocab</span></a>
+  <a href="#conj" data-tab="conj"><span class="ticon">⚙️</span><span>Verbes</span></a>
+  <a href="#grammar" data-tab="grammar"><span class="ticon">🎓</span><span>Leçons</span></a>
+  <a href="#practice" data-tab="practice"><span class="ticon">🎯</span><span>Jeux</span></a>
+</nav>
+
+<script src="data/vocab-a.js"></script>
+<script src="data/vocab-b.js"></script>
+<script src="data/vocab-c.js"></script>
+<script src="data/grammar.js"></script>
+<script src="data/conjugation.js"></script>
+<script src="data/exercises.js"></script>
+<script src="js/tts.js"></script>
+<script src="js/store.js"></script>
+<script src="js/app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+}
+</script>
+</body>
+</html>

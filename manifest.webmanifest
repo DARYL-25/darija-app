@@ -1,0 +1,17 @@
+{
+  "name": "Darija — Apprends le marocain",
+  "short_name": "Darija",
+  "description": "Apprendre le darija marocain : phonétique, vocabulaire, conjugaison, quiz et régions.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#C1272D",
+  "theme_color": "#C1272D",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
