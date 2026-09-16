@@ -1,7 +1,7 @@
 /* Exercices de grammaire — séries manuelles. a = index de la bonne réponse dans choices. */
 window.DATA.exos.push(
 {
-  id: "exo-phonetique", icon: "type", title: "Phonétique : 3, 7, 8, 9",
+  id: "exo-phonetique", icon: "🔤", title: "Phonétique : 3, 7, 8, 9",
   questions: [
     { q: "Dans « 3afak », le chiffre 3 se prononce…", choices: ["Comme un « a » profond venant de la gorge (3ayn)", "Comme le chiffre trois", "Comme un « h » doux", "Comme un « k » claqué"], a: 0, exp: "Le 3 = 3ayn, contraction au milieu de la gorge." },
     { q: "Quelle est la différence entre 7 et 8 ?", choices: ["7 = h raclé avec force, 8 = h doux comme en anglais", "Aucune, c'est le même son", "7 = h doux, 8 = h raclé", "8 ne se prononce jamais"], a: 0, exp: "7lib (lait) se racle ; 8ada (celui-ci) est doux comme « hello »." },
@@ -15,7 +15,7 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-etre-avoir", icon: "layers", title: "Être, avoir & états",
+  id: "exo-etre-avoir", icon: "🧱", title: "Être, avoir & états",
   questions: [
     { q: "Comment dit-on « je suis content » ?", choices: ["Ana fer7an", "Ana kan fer7an", "Kan-koun fer7an", "Rani kent fer7an"], a: 0, exp: "Pas de verbe « être » au présent : pronom + adjectif." },
     { q: "« Elle est grande » se dit…", choices: ["8iya kbira", "8iya kbir", "8uwa kbira", "Kant kbira"], a: 0, exp: "8iya (elle) + adjectif au féminin (-a) : kbira." },
@@ -30,16 +30,16 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-conjugaison", icon: "refresh", title: "Conjugaison : les 3 temps",
+  id: "exo-conjugaison", icon: "⚙️", title: "Conjugaison : les 3 temps",
   questions: [
     { q: "« Je comprends » (habitude, présent) se dit…", choices: ["Kan-f8em", "F8emt", "Gha n-f8em", "N-f8em"], a: 0, exp: "Présent = ka + n (je) + verbe : kan-f8em." },
-    { q: "« Elle a compris » se dit…", choices: ["F8mat", "F8emt", "F8emti", "Kat-f8em"], a: 0, exp: "Accompli 3e pers. féminin : terminaison -at  f8mat." },
+    { q: "« Elle a compris » se dit…", choices: ["F8mat", "F8emt", "F8emti", "Kat-f8em"], a: 0, exp: "Accompli 3e pers. féminin : terminaison -at → f8mat." },
     { q: "« Nous comprendrons » se dit…", choices: ["Gha n-f8mu", "Kan-f8mu", "F8emna", "Gha y-f8mu"], a: 0, exp: "Futur = gha + inaccompli sans ka- : gha n-f8mu." },
-    { q: "« Tu bois (f) » se dit…", choices: ["Kat-sherbi", "Kat-shreb", "Kan-sherbi", "Sherbi"], a: 0, exp: "Nti : kat- + verbe + -i  kat-sherbi." },
-    { q: "« Ils travaillent » se dit…", choices: ["Kay-khedmu", "Kat-khedmu", "Khedmu", "Kay-khdem"], a: 0, exp: "8uma : kay- + verbe + -u  kay-khedmu." },
+    { q: "« Tu bois (f) » se dit…", choices: ["Kat-sherbi", "Kat-shreb", "Kan-sherbi", "Sherbi"], a: 0, exp: "Nti : kat- + verbe + -i → kat-sherbi." },
+    { q: "« Ils travaillent » se dit…", choices: ["Kay-khedmu", "Kat-khedmu", "Khedmu", "Kay-khdem"], a: 0, exp: "8uma : kay- + verbe + -u → kay-khedmu." },
     { q: "À Marrakech, « je comprends » se dit souvent…", choices: ["Tan-f8em", "Dan-f8em", "Kan-f8em uniquement", "Lan-f8em"], a: 0, exp: "Préfixe ta- à Marrakech et Fès : tan-f8em = kan-f8em." },
-    { q: "« J'ai oublié » (verbe faible nsa) se dit…", choices: ["Nsit", "Nsat", "Nsa", "Kan-nsa"], a: 0, exp: "Verbes faibles : le a final devient i  nsit, nsiti, nsa, nsat…" },
-    { q: "« Ils ont acheté » (shra) se dit…", choices: ["Shraw", "Shritu", "Shrina", "Shrat"], a: 0, exp: "8uma avec verbe faible : terminaison -aw  shraw." },
+    { q: "« J'ai oublié » (verbe faible nsa) se dit…", choices: ["Nsit", "Nsat", "Nsa", "Kan-nsa"], a: 0, exp: "Verbes faibles : le a final devient i → nsit, nsiti, nsa, nsat…" },
+    { q: "« Ils ont acheté » (shra) se dit…", choices: ["Shraw", "Shritu", "Shrina", "Shrat"], a: 0, exp: "8uma avec verbe faible : terminaison -aw → shraw." },
     { q: "« Va ! » (impératif de msha, à un homme)…", choices: ["Sir !", "Mshi !", "Msha !", "Ymshi !"], a: 0, exp: "Impératif irrégulier : Sir/Siri/Siru. Jamais « mshi » !" },
     { q: "« Je mangeais » (imparfait) se dit…", choices: ["Kent kan-akul", "Klit", "Kan-akul", "Kent klit"], a: 0, exp: "Kan au passé + inaccompli : kent kan-akul." },
     { q: "« Viens ! » se dit…", choices: ["Aji !", "Ja !", "Ji !", "Tji !"], a: 0, exp: "Impératif irrégulier de ja : Aji ! (Ajiw au pluriel)." },
@@ -47,7 +47,7 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-negation-questions", icon: "book", title: "Négation & questions",
+  id: "exo-negation-questions", icon: "🚫", title: "Négation & questions",
   questions: [
     { q: "« Je ne peux pas » se dit…", choices: ["Ma kan-9der-sh", "Kan-9der-sh ma", "La kan-9der", "Ma kan-9der"], a: 0, exp: "La négation encadre : ma + verbe + sh." },
     { q: "« Je n'ai rien vu » se dit…", choices: ["Ma sheft walu", "Ma sheft-sh walu", "Sheft ma walu", "Walu ma sheft-sh"], a: 0, exp: "Avec walu (rien), pas de -sh !" },
@@ -61,7 +61,7 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-possession", icon: "book", title: "Possession & démonstratifs",
+  id: "exo-possession", icon: "🔑", title: "Possession & démonstratifs",
   questions: [
     { q: "« Ma voiture » se dit (standard)…", choices: ["T-tomobil dyali", "T-tomobil nta3i", "T-tomobil deali", "Tomobilti"], a: 0, exp: "Dyal + i = dyali. (Nta3i à Oujda, deali à Tanger — tout est correct localement !)" },
     { q: "« Le livre de l'homme » se dit…", choices: ["L-ktab dyal r-rajel", "L-ktab men r-rajel", "Ktab r-rajel dyal", "L-ktab l r-rajel"], a: 0, exp: "Possession entre noms : X dyal Y." },
@@ -74,7 +74,7 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-subordonnees", icon: "book", title: "Bash, ila, koun & cie",
+  id: "exo-subordonnees", icon: "🧩", title: "Bash, ila, koun & cie",
   questions: [
     { q: "« Je suis venu pour te voir » se dit…", choices: ["Jit bash n-shoufek", "Jit bash kan-shoufek", "Jit 7it n-shoufek", "Jit belli n-shoufek"], a: 0, exp: "Bash + inaccompli SANS ka- : bash n-shoufek." },
     { q: "« Lave-toi les mains avant de manger »…", choices: ["Ghsel yeddik 9bel ma t-akul", "Ghsel yeddik 9bel ma kat-akul", "Ghsel yeddik be3d ma t-akul", "Ghsel yeddik bla ma t-akul"], a: 0, exp: "9bel ma + inaccompli sans ka-." },
@@ -88,7 +88,7 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-regions", icon: "book", title: "Quiz des régions",
+  id: "exo-regions", icon: "🗺️", title: "Quiz des régions",
   questions: [
     { q: "À Oujda, « maintenant » se dit…", choices: ["Drok", "Daba", "Daba daba", "Deghya"], a: 0, exp: "Drok = le marqueur oriental par excellence." },
     { q: "À Tanger, une carotte s'appelle…", choices: ["J3da", "Khizzu", "Zrodiya", "Sanaria"], a: 0, exp: "Khizzu (standard), j3da (Nord), zrodiya (Oriental)." },
@@ -105,7 +105,7 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-situations", icon: "book", title: "Situations réelles",
+  id: "exo-situations", icon: "🎬", title: "Situations réelles",
   questions: [
     { q: "Le taxi n'a pas allumé son compteur. Tu dis…", choices: ["Kheddem l-kuntur 3afak", "Sh7al l-kuntur ?", "W9ef 8na 3afak", "Sir b shwiya"], a: 0, exp: "« Fais marcher le compteur svp » — le réflexe anti-arnaque n°1." },
     { q: "Le vendeur dit « miyat riyal ». Ça fait…", choices: ["5 dirhams", "100 dirhams", "20 dirhams", "50 dirhams"], a: 0, exp: "100 rials ÷ 20 = 5 DH. Toujours diviser par 20 !" },
@@ -122,7 +122,7 @@ window.DATA.exos.push(
   ]
 },
 {
-  id: "exo-faux-amis", icon: "book", title: "Pièges & faux-amis",
+  id: "exo-faux-amis", icon: "⚠️", title: "Pièges & faux-amis",
   questions: [
     { q: "« Je t'aime beaucoup » se dit…", choices: ["Kan-bghik bzaf", "Kan-bghik mzyan", "Kan-bghik shwiya", "Kan-bghik nishan"], a: 0, exp: "Bzaf = intensité. « Kan-bghik mzyan » fait rire les Marocains !" },
     { q: "« Je cherche mes clés » se dit…", choices: ["Kan-9elleb 3la s-swaret", "Kan-9elleb s-swaret", "Kan-shuf s-swaret", "Kan-l9a s-swaret"], a: 0, exp: "9elleb SEUL = retourner/fouiller. Chercher = 9elleb 3LA." },

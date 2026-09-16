@@ -3,46 +3,62 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
-<title>Darija — Apprends le marocain</title>
-<meta name="description" content="Apprends le darija marocain : vocabulaire, conjugaison, phonétique, quiz et variations régionales.">
-<meta name="theme-color" content="#C1272D">
+<title>Darija Academy — Apprends le marocain</title>
+<meta name="description" content="Apprends le darija marocain et l'arabe standard : théorie complète, 2 600 mots avec variantes régionales, conjugaison, flashcards, mode infini paramétrable.">
+<meta name="theme-color" content="#2a0609">
 <link rel="manifest" href="manifest.webmanifest">
-<!-- iOS PWA -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Darija">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="icons/logo.svg">
+<link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
-<div id="app">
-  <div class="loading-screen">
-    <div class="loading-star">★</div>
-    <p>Chargement…</p>
+
+<!-- ============ Accueil (première ouverture) ============ -->
+<div id="onboarding">
+  <div class="ob-step">
+    <img class="ob-logo-img" src="icons/logo-256.png" alt="Darija Academy" width="140" height="140">
+    <h1>Darija Academy</h1>
+    <p>Deviens <b>bilingue en darija marocain</b> et apprends l'<b>arabe standard</b> en même temps.</p>
+    <div class="ob-features">
+      <span><i data-icon="layers"></i>Une théorie complète : 60 chapitres, de la phonétique à la phrase complexe</span>
+      <span><i data-icon="book"></i>2 600 mots et expressions, avec les variantes de chaque région du Maroc</span>
+      <span><i data-icon="languages"></i>L'arabe standard vocalisé et sa prononciation, en face de chaque mot</span>
+      <span><i data-icon="infinity"></i>Flashcards, mode infini paramétrable, quiz, memory</span>
+    </div>
+    <button class="btn big" id="ob-start">C'EST PARTI !</button>
   </div>
 </div>
-<nav id="tabbar">
-  <a href="#home" data-tab="home"><span class="ticon">🏠</span><span>Accueil</span></a>
-  <a href="#vocab" data-tab="vocab"><span class="ticon">📚</span><span>Vocab</span></a>
-  <a href="#conj" data-tab="conj"><span class="ticon">⚙️</span><span>Verbes</span></a>
-  <a href="#grammar" data-tab="grammar"><span class="ticon">🎓</span><span>Leçons</span></a>
-  <a href="#practice" data-tab="practice"><span class="ticon">🎯</span><span>Jeux</span></a>
+
+<div id="app"></div>
+
+<!-- ============ Navigation basse ============ -->
+<nav id="bottom-nav">
+  <button class="nav-btn active" data-tab="home"><i data-icon="home"></i>Accueil</button>
+  <button class="nav-btn" data-tab="vocab"><i data-icon="book"></i>Vocabulaire</button>
+  <button class="nav-btn" data-tab="theory"><i data-icon="layers"></i>Théorie</button>
+  <button class="nav-btn" data-tab="practice"><i data-icon="gamepad"></i>Entraînement</button>
+  <button class="nav-btn" data-tab="profile"><i data-icon="user"></i>Profil</button>
 </nav>
 
-<script src="data/vocab-a.js"></script>
-<script src="data/vocab-b.js"></script>
-<script src="data/vocab-c.js"></script>
-<script src="data/grammar.js"></script>
-<script src="data/conjugation.js"></script>
-<script src="data/exercises.js"></script>
-<script src="js/tts.js"></script>
-<script src="js/store.js"></script>
-<script src="js/app.js"></script>
+<script src="js/icons.js?v=2"></script>
+<script src="data/vocab-a.js?v=2"></script>
+<script src="data/vocab-b.js?v=2"></script>
+<script src="data/vocab-c.js?v=2"></script>
+<script src="data/lexique.js?v=2"></script>
+<script src="data/grammar.js?v=2"></script>
+<script src="data/grammar-2.js?v=2"></script>
+<script src="data/grammar-3.js?v=2"></script>
+<script src="data/conjugation.js?v=2"></script>
+<script src="data/conjugation-2.js?v=2"></script>
+<script src="data/exercises.js?v=2"></script>
+<script src="js/tts.js?v=2"></script>
+<script src="js/store.js?v=2"></script>
+<script src="js/app.js?v=2"></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));

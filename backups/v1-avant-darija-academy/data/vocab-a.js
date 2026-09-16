@@ -9,7 +9,7 @@ window.DATA.exos = window.DATA.exos || [];
 
 window.DATA.vocab.push(
 {
-  id: "salutations", icon: "hand", title: "Salutations & rencontres", group: "Les bases",
+  id: "salutations", icon: "👋", title: "Salutations & rencontres", group: "Les bases",
   items: [
     { fr: "Bonjour (que la paix soit sur vous)", da: "Es-salam 3alikom", ar: "السلام عليكم", note: "LA salutation universelle. Réponse obligatoire : Wa 3alikom es-salam." },
     { fr: "Réponse au salut", da: "Wa 3alikom es-salam", ar: "وعليكم السلام" },
@@ -41,7 +41,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "politesse", icon: "heart", title: "Politesse & formules en or", group: "Les bases",
+  id: "politesse", icon: "🤲", title: "Politesse & formules en or", group: "Les bases",
   items: [
     { fr: "S'il te plaît", da: "3afak", ar: "عافاك", reg: "Nord : 3afak / b-llati · très poli partout : Llah yekhlik." },
     { fr: "S'il te plaît (très respectueux)", da: "Llah yekhlik", ar: "الله يخليك", note: "Litt. « que Dieu te préserve »." },
@@ -74,7 +74,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "nombres", icon: "hash", title: "Les nombres", group: "Les bases",
+  id: "nombres", icon: "🔢", title: "Les nombres", group: "Les bases",
   items: [
     { fr: "Un", da: "Wa7ed", ar: "واحد" },
     { fr: "Deux", da: "Juj", ar: "جوج", reg: "Oriental (Oujda) : Zouj." },
@@ -113,7 +113,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "argent", icon: "coins", title: "Argent, rial & dirham", group: "Les bases",
+  id: "argent", icon: "💰", title: "Argent, rial & dirham", group: "Les bases",
   items: [
     { fr: "L'argent", da: "L-flous", ar: "الفلوس", reg: "Oriental (Oujda) : Dra8em." },
     { fr: "Le dirham", da: "Der8em", ar: "درهم", note: "Monnaie officielle (DH)." },
@@ -139,7 +139,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "jours-mois", icon: "calendar", title: "Jours, mois & calendrier", group: "Les bases",
+  id: "jours-mois", icon: "📅", title: "Jours, mois & calendrier", group: "Les bases",
   items: [
     { fr: "Lundi", da: "L-tnin", ar: "الاثنين" },
     { fr: "Mardi", da: "T-tlat", ar: "الثلاث" },
@@ -168,7 +168,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "heure-temps", icon: "clock", title: "L'heure & le temps qui passe", group: "Les bases",
+  id: "heure-temps", icon: "⏰", title: "L'heure & le temps qui passe", group: "Les bases",
   items: [
     { fr: "Quelle heure est-il ?", da: "Sh7al f s-sa3a ?", ar: "شحال فالساعة؟" },
     { fr: "L'heure / la montre", da: "S-sa3a", ar: "الساعة", note: "Deux heures (durée) = Sa3tayn." },
@@ -202,7 +202,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "famille", icon: "users", title: "La famille", group: "Les bases",
+  id: "famille", icon: "👨‍👩‍👧‍👦", title: "La famille", group: "Les bases",
   items: [
     { fr: "La famille", da: "L-3a2ila", ar: "العائلة", note: "Aussi : mwalin d-dar (les gens de la maison)." },
     { fr: "Le père", da: "Bba", ar: "با", note: "Très respectueux : L-walid. Bba = papa." },
@@ -236,7 +236,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "pronoms-poss", icon: "user", title: "Pronoms & possession", group: "Les bases",
+  id: "pronoms-poss", icon: "🫵", title: "Pronoms & possession", group: "Les bases",
   items: [
     { fr: "Moi / je", da: "Ana", ar: "أنا" },
     { fr: "Toi (masculin)", da: "Nta", ar: "نتا", reg: "Nord : Ntina (pour homme ET femme)." },
@@ -264,7 +264,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "questions", icon: "help", title: "Poser des questions", group: "Les bases",
+  id: "questions", icon: "❓", title: "Poser des questions", group: "Les bases",
   items: [
     { fr: "Où ?", da: "Fin / Fayn", ar: "فين", note: "Fin gha temshi ? = où vas-tu ?" },
     { fr: "Où es-tu ?", da: "Finak ?", ar: "فيناك؟", note: "Fin + pronom : Finak (toi, m), Finek (f), Fin8a (elle)…" },
@@ -285,7 +285,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "connecteurs", icon: "link", title: "Connecteurs & petits mots", group: "Les bases",
+  id: "connecteurs", icon: "🔗", title: "Connecteurs & petits mots", group: "Les bases",
   items: [
     { fr: "Et", da: "W / U", ar: "و", note: "Se colle au mot suivant : Ana w yak = moi et toi." },
     { fr: "Ou", da: "Wla / Aw", ar: "ولا", note: "Atay wla 9a8wa ? = thé ou café ?" },
@@ -317,7 +317,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "couleurs", icon: "palette", title: "Les couleurs", group: "Les bases",
+  id: "couleurs", icon: "🎨", title: "Les couleurs", group: "Les bases",
   items: [
     { fr: "Noir", da: "K7el", ar: "كحل", note: "Féminin : Ke7la · Pluriel : Ku7el. Noir corbeau = K7el ghrab." },
     { fr: "Noire (féminin)", da: "Ke7la", ar: "كحلة", note: "Tomobil ke7la = une voiture noire." },
@@ -340,7 +340,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "adjectifs", icon: "sparkles", title: "Adjectifs essentiels", group: "Les bases",
+  id: "adjectifs", icon: "✨", title: "Adjectifs essentiels", group: "Les bases",
   items: [
     { fr: "Grand", da: "Kbir", ar: "كبير", note: "Féminin : Kbira. Aussi « âgé ». Comparatif : kber men = plus grand que." },
     { fr: "Petit", da: "Sghir", ar: "صغير", note: "Aussi « jeune ». Comparatif : sgher men." },

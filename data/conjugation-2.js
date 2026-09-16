@@ -1,0 +1,147 @@
+/* Conjugaison — partie 2 : 24 verbes supplémentaires (régulier, formes dérivées, creux, sourds, faibles).
+   Ordre des formes : [Ana, Nta, Nti, 8uwa, 8iya, 7na, Ntuma, 8uma] · base = inaccompli SANS ka- */
+window.DATA.verbs.push(
+{ id:"3ref", da:"3ref", fr:"savoir, conna\u00eetre", ar:"عرف", icon:"zap", type:"régulier",
+  note:"Kan-3ref = je sais. Ma 3reftsh = je ne sais pas (pour un fait) ; ma kan-3refsh = je ne connais pas. 3refti ? = tu sais ?",
+  acc:["3reft", "3refti", "3refti", "3ref", "3erfat", "3refna", "3reftu", "3erfu"],
+  base:["n-3ref", "t-3ref", "t-3erfi", "y-3ref", "t-3ref", "n-3erfu", "t-3erfu", "y-3erfu"],
+  imp:["3ref !", "3erfi !", "3erfu !"], pa:["3aref", "3arfa", "3arfin"] },
+
+{ id:"dkhel", da:"Dkhel", fr:"entrer", ar:"دخل", icon:"zap", type:"régulier",
+  note:"Dkhel l d-dar = il est entré dans la maison. Impératif : Dkhul, mer7ba ! (entre, bienvenue). Dkhel f l-mawdu3 = entre dans le vif du sujet.",
+  acc:["Dkhelt", "Dkhelti", "Dkhelti", "Dkhel", "Dekhlat", "Dkhelna", "Dkheltu", "Dekhlu"],
+  base:["n-dkhul", "t-dkhul", "t-dekhli", "y-dkhul", "t-dkhul", "n-dekhlu", "t-dekhlu", "y-dekhlu"],
+  imp:["Dkhul !", "Dekhli !", "Dekhlu !"], pa:["Dakhel", "Dakhla", "Dakhlin"] },
+
+{ id:"khrej", da:"Khrej", fr:"sortir", ar:"خرج", icon:"zap", type:"régulier",
+  note:"Khrej men… = sortir de. Khrej li8 = ça lui est sorti (il a obtenu). Kherrej (forme II) = faire sortir.",
+  acc:["Khrejt", "Khrejti", "Khrejti", "Khrej", "Kherjat", "Khrejna", "Khrejtu", "Kherju"],
+  base:["n-khrej", "t-khrej", "t-kherji", "y-khrej", "t-khrej", "n-kherju", "t-kherju", "y-kherju"],
+  imp:["Khrej !", "Kherji !", "Kherju !"], pa:["Kharej", "Kharja", "Kharjin"] },
+
+{ id:"rje3", da:"Rje3", fr:"revenir, retourner", ar:"رجع", icon:"zap", type:"régulier",
+  note:"Rje3t l d-dar = je suis rentré. Rje3 l 3e9lek ! = reviens à la raison. Participe raje3 : ana raje3 = je reviens (tout de suite).",
+  acc:["Rje3t", "Rje3ti", "Rje3ti", "Rje3", "Rej3at", "Rje3na", "Rje3tu", "Rej3u"],
+  base:["n-rje3", "t-rje3", "t-rej3i", "y-rje3", "t-rje3", "n-rej3u", "t-rej3u", "y-rej3u"],
+  imp:["Rje3 !", "Rej3i !", "Rej3u !"], pa:["Raje3", "Raj3a", "Raj3in"] },
+
+{ id:"Tle3", da:"Tle3", fr:"monter", ar:"طلع", icon:"zap", type:"régulier",
+  note:"Tle3 l T-Tabe9 = monter à l'étage. Tle3 li f rasi = il m'a énervé. Tle3 t-taman = le prix a augmenté.",
+  acc:["Tle3t", "Tle3ti", "Tle3ti", "Tle3", "Tel3at", "Tle3na", "Tle3tu", "Tel3u"],
+  base:["n-Tle3", "t-Tle3", "t-Tel3i", "y-Tle3", "t-Tle3", "n-Tel3u", "t-Tel3u", "y-Tel3u"],
+  imp:["Tle3 !", "Tel3i !", "Tel3u !"], pa:["Tale3", "Tal3a", "Tal3in"] },
+
+{ id:"8beT", da:"8bet", fr:"descendre", ar:"هبط", icon:"zap", type:"régulier",
+  note:"8beT men l-kar = descendre du bus. 8beT men t-taman = baisse le prix. Nord et Oriental : nzel.",
+  acc:["8bett", "8betti", "8betti", "8bet", "8ebtat", "8betna", "8bettu", "8ebtu"],
+  base:["n-8beT", "t-8beT", "t-8ebTi", "y-8beT", "t-8beT", "n-8ebTu", "t-8ebTu", "y-8ebTu"],
+  imp:["8bet !", "8ebTi !", "8ebTu !"], pa:["8abeT", "8abTa", "8abTin"] },
+
+{ id:"ghsel", da:"Ghsel", fr:"laver", ar:"غسل", icon:"zap", type:"régulier",
+  note:"Ghsel lmwa3en = faire la vaisselle. Tghessel (forme t-) = se laver. Meghsul = lavé.",
+  acc:["Ghselt", "Ghselti", "Ghselti", "Ghsel", "Gheslat", "Ghselna", "Ghseltu", "Gheslu"],
+  base:["n-ghsel", "t-ghsel", "t-ghesli", "y-ghsel", "t-ghsel", "n-gheslu", "t-gheslu", "y-gheslu"],
+  imp:["Ghsel !", "Ghesli !", "Gheslu !"], pa:["Ghasel", "Ghasla", "Ghaslin"] },
+
+{ id:"lbes", da:"Lbes", fr:"s'habiller, porter", ar:"لبس", icon:"zap", type:"régulier",
+  note:"Lbes jellaba = il a mis une djellaba. Participe labes : ana labes = je suis habillé. Lebbes (forme II) = habiller quelqu'un.",
+  acc:["Lbest", "Lbesti", "Lbesti", "Lbes", "Lebsat", "Lbesna", "Lbestu", "Lebsu"],
+  base:["n-lbes", "t-lbes", "t-lebsi", "y-lbes", "t-lbes", "n-lebsu", "t-lebsu", "y-lebsu"],
+  imp:["Lbes !", "Lebsi !", "Lebsu !"], pa:["Labes", "Labsa", "Labsin"] },
+
+{ id:"Tbekh", da:"Tbekh", fr:"cuisiner", ar:"طبخ", icon:"zap", type:"régulier",
+  note:"Shnu Tbekhti l-yum ? = qu'as-tu cuisiné aujourd'hui ? MeTbukh = cuit. T-Tbakh = le cuisinier.",
+  acc:["Tbekht", "Tbekhti", "Tbekhti", "Tbekh", "Tebkhat", "Tbekhna", "Tbekhtu", "Tebkhu"],
+  base:["n-Tbekh", "t-Tbekh", "t-Tebkhi", "y-Tbekh", "t-Tbekh", "n-Tebkhu", "t-Tebkhu", "y-Tebkhu"],
+  imp:["Tbekh !", "Tebkhi !", "Tebkhu !"], pa:["Tabekh", "Tabkha", "Tabkhin"] },
+
+{ id:"Dreb", da:"Dreb", fr:"frapper, taper", ar:"ضرب", icon:"zap", type:"régulier",
+  note:"Dreb lu telfun = passe-lui un coup de fil. Dreb l-fil = tirer un penalty. TteDreb = être frappé.",
+  acc:["Drebt", "Drebti", "Drebti", "Dreb", "Derbat", "Drebna", "Drebtu", "Derbu"],
+  base:["n-Dreb", "t-Dreb", "t-Derbi", "y-Dreb", "t-Dreb", "n-Derbu", "t-Derbu", "y-Derbu"],
+  imp:["Dreb !", "Derbi !", "Derbu !"], pa:["Dareb", "Darba", "Darbin"] },
+
+{ id:"3awen", da:"3awen", fr:"aider", ar:"عاون", icon:"zap", type:"forme III (a après la 1re consonne)",
+  note:"3awenni ! = aide-moi ! T3awen (forme t-) = s'entraider. Llah y-3awn = que Dieu aide.",
+  acc:["3awent", "3awenti", "3awenti", "3awen", "3awnat", "3awenna", "3awentu", "3awnu"],
+  base:["n-3awen", "t-3awen", "t-3awni", "y-3awen", "t-3awen", "n-3awnu", "t-3awnu", "y-3awnu"],
+  imp:["3awen !", "3awni !", "3awnu !"], pa:["M3awen", "M3awna", "M3awnin"] },
+
+{ id:"t3ellem", da:"T3ellem", fr:"apprendre", ar:"تعلّم", icon:"zap", type:"forme t- (réfléchi)",
+  note:"T3ellemt d-darija = j'ai appris le darija. Kat-t3ellem se prononce « katt3ellem ». Contraire : 3ellem = enseigner.",
+  acc:["T3ellemt", "T3ellemti", "T3ellemti", "T3ellem", "T3ellmat", "T3ellemna", "T3ellemtu", "T3ellmu"],
+  base:["n-t3ellem", "t-t3ellem", "t-t3ellmi", "y-t3ellem", "t-t3ellem", "n-t3ellmu", "t-t3ellmu", "y-t3ellmu"],
+  imp:["T3ellem !", "T3ellmi !", "T3ellmu !"], pa:["Mt3ellem", "Mt3ellma", "Mt3ellmin"] },
+
+{ id:"khelleS", da:"Khelles", fr:"payer", ar:"خلّص", icon:"zap", type:"forme II (consonne doublée)",
+  note:"KhelleS l-7sab = payer l'addition. Ana lli n-khelleS = c'est moi qui paie. Mkhelles = payé.",
+  acc:["Khellest", "Khellesti", "Khellesti", "Khelles", "Khellsat", "Khellesna", "Khellestu", "Khellsu"],
+  base:["n-khelleS", "t-khelleS", "t-khellSi", "y-khelleS", "t-khelleS", "n-khellSu", "t-khellSu", "y-khellSu"],
+  imp:["Khelles !", "Khellsi !", "Khellsu !"], pa:["MkhelleS", "MkhellSa", "MkhellSin"] },
+
+{ id:"sewwel", da:"Sewwel", fr:"demander, interroger", ar:"سوّل", icon:"zap", type:"forme II",
+  note:"Sewwel 3la… = demander des nouvelles de. Sewwelni = demande-moi. Su2al = une question.",
+  acc:["Sewwelt", "Sewwelti", "Sewwelti", "Sewwel", "Sewwlat", "Sewwelna", "Sewweltu", "Sewwlu"],
+  base:["n-sewwel", "t-sewwel", "t-sewwli", "y-sewwel", "t-sewwel", "n-sewwlu", "t-sewwlu", "y-sewwlu"],
+  imp:["Sewwel !", "Sewwli !", "Sewwlu !"], pa:["Msewwel", "Msewwla", "Msewwlin"] },
+
+{ id:"jerreb", da:"Jerreb", fr:"essayer, go\u00fbter", ar:"جرّب", icon:"zap", type:"forme II",
+  note:"Jerreb t-akul = goûte. Jerrebt w ma 9dertsh = j'ai essayé sans y arriver. Tejriba = expérience.",
+  acc:["Jerrebt", "Jerrebti", "Jerrebti", "Jerreb", "Jerrbat", "Jerrebna", "Jerrebtu", "Jerrbu"],
+  base:["n-jerreb", "t-jerreb", "t-jerrbi", "y-jerreb", "t-jerreb", "n-jerrbu", "t-jerrbu", "y-jerrbu"],
+  imp:["Jerreb !", "Jerrbi !", "Jerrbu !"], pa:["Mjerreb", "Mjerrba", "Mjerrbin"] },
+
+{ id:"3iyyeT", da:"3iyyet", fr:"appeler, crier", ar:"عيّط", icon:"zap", type:"forme II",
+  note:"3iyyeT liya = appelle-moi (au téléphone ou de vive voix). 3iyyeT 3la l-weld = appelle le garçon.",
+  acc:["3iyyett", "3iyyetti", "3iyyetti", "3iyyet", "3iyytat", "3iyyetna", "3iyyettu", "3iyytu"],
+  base:["n-3iyyeT", "t-3iyyeT", "t-3iyyTi", "y-3iyyeT", "t-3iyyeT", "n-3iyyTu", "t-3iyyTu", "y-3iyyTu"],
+  imp:["3iyyet !", "3iyyti !", "3iyytu !"], pa:["M3iyyeT", "M3iyyTa", "M3iyyTin"] },
+
+{ id:"jab", da:"Jab", fr:"apporter, amener", ar:"جاب", icon:"zap", type:"creux (voyelle interne)",
+  note:"Jib lya l-ma = apporte-moi l'eau. Jab l-flus = il a apporté l'argent. Llah y-jib l-khir = que Dieu apporte le bien. Jab ras… = obtenir.",
+  acc:["Jebt", "Jebti", "Jebti", "Jab", "Jabet", "Jebna", "Jebtu", "Jabu"],
+  base:["n-jib", "t-jib", "t-jibi", "y-jib", "t-jib", "n-jibu", "t-jibu", "y-jibu"],
+  imp:["Jib !", "Jibi !", "Jibu !"], pa:["Jayeb", "Jayba", "Jaybin"] },
+
+{ id:"fa9", da:"Fa9", fr:"se r\u00e9veiller", ar:"فاق", icon:"zap", type:"creux (voyelle interne)",
+  note:"Fe9t bekri = je me suis réveillé tôt. Fi9 ! = réveille-toi ! Fa9 b… = se rendre compte de.",
+  acc:["Fe9t", "Fe9ti", "Fe9ti", "Fa9", "Fa9et", "Fe9na", "Fe9tu", "Fa9u"],
+  base:["n-fi9", "t-fi9", "t-fi9i", "y-fi9", "t-fi9", "n-fi9u", "t-fi9u", "y-fi9u"],
+  imp:["Fi9 !", "Fi9i !", "Fi9u !"], pa:["Faye9", "Fay9a", "Fay9in"] },
+
+{ id:"khaf", da:"Khaf", fr:"avoir peur", ar:"خاف", icon:"zap", type:"creux (voyelle interne)",
+  note:"Khaf men… = avoir peur de. Ma t-khafsh = n'aie pas peur. Participe : khayef / khayfa. Khewwef = faire peur.",
+  acc:["Kheft", "Khefti", "Khefti", "Khaf", "Khafet", "Khefna", "Kheftu", "Khafu"],
+  base:["n-khaf", "t-khaf", "t-khafi", "y-khaf", "t-khaf", "n-khafu", "t-khafu", "y-khafu"],
+  imp:null, pa:["Kayef", "Kayfa", "Kayfin"] },
+
+{ id:"7ell", da:"7ell", fr:"ouvrir, r\u00e9soudre", ar:"حلّ", icon:"zap", type:"sourd (consonne doublée)",
+  note:"7ell l-bab = ouvre la porte. 7ell l-mushkil = résoudre le problème. Me7lul = ouvert ; 7all = solution.",
+  acc:["7ellit", "7elliti", "7elliti", "7ell", "7ellat", "7ellina", "7ellitu", "7ellu"],
+  base:["n-7ell", "t-7ell", "t-7elli", "y-7ell", "t-7ell", "n-7ellu", "t-7ellu", "y-7ellu"],
+  imp:["7ell !", "7elli !", "7ellu !"], pa:["7all", "7alla", "7allin"] },
+
+{ id:"sedd", da:"Sedd", fr:"fermer", ar:"سدّ", icon:"zap", type:"sourd (consonne doublée)",
+  note:"Sedd l-bab b s-sarut = fermer la porte à clé. Mesdud = fermé. Sedd femmek = tais-toi (familier).",
+  acc:["Seddit", "Sedditi", "Sedditi", "Sedd", "Seddat", "Seddina", "Sedditu", "Seddu"],
+  base:["n-sedd", "t-sedd", "t-seddi", "y-sedd", "t-sedd", "n-seddu", "t-seddu", "y-seddu"],
+  imp:["Sedd !", "Seddi !", "Seddu !"], pa:["Sadd", "Sadda", "Saddin"] },
+
+{ id:"bda", da:"Bda", fr:"commencer", ar:"بدا", icon:"zap", type:"faible (en -a)",
+  note:"Bda y-khdem = il a commencé à travailler (verbe nu après). Bdit kan-fhem = je commence à comprendre. L-bidaya = le début.",
+  acc:["Bdit", "Bditi", "Bditi", "Bda", "Bdat", "Bdina", "Bditu", "Bdaw"],
+  base:["n-bda", "t-bda", "t-bday", "y-bda", "t-bda", "n-bdaw", "t-bdaw", "y-bdaw"],
+  imp:["Bda !", "Bday !", "Bdaw !"], pa:["Badi", "Badya", "Badyin"] },
+
+{ id:"b9a", da:"B9a", fr:"rester, continuer", ar:"بقى", icon:"zap", type:"faible (en -a)",
+  note:"B9a f d-dar = il est resté à la maison. Ma b9ash = il n'y a plus. B9a kay-8der = il a continué à parler. Ba9i = encore.",
+  acc:["B9it", "B9iti", "B9iti", "B9a", "B9at", "B9ina", "B9itu", "B9aw"],
+  base:["n-b9a", "t-b9a", "t-b9ay", "y-b9a", "t-b9a", "n-b9aw", "t-b9aw", "y-b9aw"],
+  imp:["B9a !", "B9ay !", "B9aw !"], pa:["Ba9i", "Ba9ya", "Ba9yin"] },
+
+{ id:"stenna", da:"Stenna", fr:"attendre", ar:"ستنّى", icon:"zap", type:"faible (en -a)",
+  note:"Stenna shwiya ! = attends un peu ! Stennit sa3a = j'ai attendu une heure. Mstenni = en attente (ana mstenni = j'attends).",
+  acc:["Stennit", "Stenniti", "Stenniti", "Stenna", "Stennat", "Stennina", "Stennitu", "Stennaw"],
+  base:["n-stenna", "t-stenna", "t-stennay", "y-stenna", "t-stenna", "n-stennaw", "t-stennaw", "y-stennaw"],
+  imp:["Stenna !", "Stennay !", "Stennaw !"], pa:["Mstenni", "Mstennya", "Mstennyin"] }
+);

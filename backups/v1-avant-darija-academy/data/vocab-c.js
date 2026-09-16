@@ -1,7 +1,7 @@
 /* Vocabulaire — Partie C : Le monde autour de toi + Parler comme un local */
 window.DATA.vocab.push(
 {
-  id: "vetements", icon: "shirt", title: "Vêtements & habillage", group: "Le monde autour de toi",
+  id: "vetements", icon: "👕", title: "Vêtements & habillage", group: "Le monde autour de toi",
   items: [
     { fr: "Les vêtements / les affaires", da: "L-7wayej", ar: "الحوايج", note: "Jme3 7wayjek = ramasse tes affaires." },
     { fr: "Le pantalon", da: "Serwal", ar: "سروال", note: "Pluriel : Srawel." },
@@ -28,7 +28,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "meteo", icon: "cloud", title: "Météo & saisons", group: "Le monde autour de toi",
+  id: "meteo", icon: "🌦️", title: "Météo & saisons", group: "Le monde autour de toi",
   items: [
     { fr: "Le temps / la météo", da: "J-jaw", ar: "الجو", note: "Kidayr j-jaw ? = quel temps fait-il ?" },
     { fr: "Le temps est beau", da: "J-jaw zwin", ar: "الجو زوين" },
@@ -51,7 +51,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "animaux", icon: "paw", title: "Les animaux", group: "Le monde autour de toi",
+  id: "animaux", icon: "🐪", title: "Les animaux", group: "Le monde autour de toi",
   items: [
     { fr: "L'animal", da: "L-7ayawan", ar: "الحيوان" },
     { fr: "Le chat", da: "Mesh", ar: "مش", reg: "Nord : 9et · Oriental : Gett. Un des mots les plus régionaux !" },
@@ -77,7 +77,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "travail", icon: "briefcase", title: "Travail & professions", group: "Le monde autour de toi",
+  id: "travail", icon: "💼", title: "Travail & professions", group: "Le monde autour de toi",
   items: [
     { fr: "Le travail", da: "L-khedma", ar: "الخدمة", note: "Khasni n-mshi l l-khedma = je dois aller au travail." },
     { fr: "Travailler", da: "Khdem", ar: "خدم", note: "Kan-khdem f sharika = je travaille dans une entreprise." },
@@ -111,7 +111,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "ecole", icon: "book", title: "École, langues & apprendre", group: "Le monde autour de toi",
+  id: "ecole", icon: "📖", title: "École, langues & apprendre", group: "Le monde autour de toi",
   items: [
     { fr: "L'école", da: "L-medrasa", ar: "المدرسة" },
     { fr: "L'université", da: "L-jami3a / La fac", ar: "الجامعة" },
@@ -136,10 +136,10 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "sport-loisirs", icon: "trophy", title: "Sport & loisirs", group: "Le monde autour de toi",
+  id: "sport-loisirs", icon: "⚽", title: "Sport & loisirs", group: "Le monde autour de toi",
   items: [
     { fr: "Le sport", da: "R-riyada / S-sport", ar: "الرياضة" },
-    { fr: "Le football", da: "L-kura / L-foot", ar: "الكرة", note: "LE sport national. Dima Maghrib ! " },
+    { fr: "Le football", da: "L-kura / L-foot", ar: "الكرة", note: "LE sport national. Dima Maghrib ! 🦁" },
     { fr: "Le ballon", da: "L-kura / L-balon", ar: "الكرة" },
     { fr: "Jouer", da: "L3eb", ar: "لعب", note: "Kan-l3eb l-kura = je joue au foot. N-l3bu ? = on joue ?" },
     { fr: "Le match", da: "L-match / L-mubara", ar: "الماتش", note: "Shkun lli l3eb l-bare7 ? = qui jouait hier ?" },
@@ -163,7 +163,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "verbes1", icon: "zap", title: "Verbes essentiels 1", group: "Parler comme un local",
+  id: "verbes1", icon: "🏃", title: "Verbes essentiels 1", group: "Parler comme un local",
   items: [
     { fr: "Vouloir / aimer", da: "Bgha", ar: "بغى", note: "Bghit = je veux. Kan-bghik = je t'aime." },
     { fr: "Pouvoir", da: "9der", ar: "قدر", note: "Kan-9der = je peux. Ma kan-9der-sh = je ne peux pas." },
@@ -198,7 +198,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "verbes2", icon: "zap", title: "Verbes essentiels 2", group: "Parler comme un local",
+  id: "verbes2", icon: "🤸", title: "Verbes essentiels 2", group: "Parler comme un local",
   items: [
     { fr: "Comprendre", da: "F8em", ar: "فهم", note: "Le verbe-école de la conjugaison ! F8emt, kan-f8em, gha n-f8em." },
     { fr: "Savoir", da: "3ref", ar: "عرف", note: "3reft belli nta mghribi = je sais que tu es marocain." },
@@ -235,7 +235,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "expressions", icon: "message", title: "Mots-tiroirs & expressions clés", group: "Parler comme un local",
+  id: "expressions", icon: "💬", title: "Mots-tiroirs & expressions clés", group: "Parler comme un local",
   items: [
     { fr: "C'est bon / d'accord / ça suffit / fini", da: "Safi", ar: "صافي", note: "LE mot n°1 du Maroc. Safi ? = c'est bon ? Safi ! = ça suffit !" },
     { fr: "D'accord / OK / même si", da: "Wakha", ar: "واخا" },
@@ -273,7 +273,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "argot", icon: "message", title: "Argot urbain (comprendre la rue)", group: "Parler comme un local",
+  id: "argot", icon: "😎", title: "Argot urbain (comprendre la rue)", group: "Parler comme un local",
   items: [
     { fr: "Un mec / une meuf", da: "Sat / Sata", ar: "صاط", note: "Très courant chez les jeunes de Casa." },
     { fr: "L'ami intime / le pote", da: "L-3shir", ar: "العشير", note: "A l-3shir ! = mon pote !" },
@@ -305,7 +305,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "religion-fetes", icon: "moon", title: "Religion, fêtes & traditions", group: "Parler comme un local",
+  id: "religion-fetes", icon: "🌙", title: "Religion, fêtes & traditions", group: "Parler comme un local",
   items: [
     { fr: "Dieu", da: "Llah / Rbi", ar: "الله", note: "Rbi = mon Seigneur. Omniprésent dans la langue !" },
     { fr: "Si Dieu le veut", da: "InshaAllah", ar: "إن شاء الله" },
@@ -332,7 +332,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "urgences-admin", icon: "alert", title: "Urgences, banque & administration", group: "Parler comme un local",
+  id: "urgences-admin", icon: "🚨", title: "Urgences, banque & administration", group: "Parler comme un local",
   items: [
     { fr: "Au secours !", da: "3et9u r-ru7 !", ar: "عتقو الروح!", note: "Litt. « sauvez une âme ! » — très efficace en cas de danger." },
     { fr: "Au voleur !", da: "Sheffar !", ar: "شفار!", note: "Crie ça et tout le quartier lui court après !" },
@@ -363,7 +363,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "proverbes", icon: "quote", title: "Proverbes & sagesse populaire", group: "Parler comme un local",
+  id: "proverbes", icon: "🦉", title: "Proverbes & sagesse populaire", group: "Parler comme un local",
   items: [
     { fr: "Rien ne sert de courir (qui se précipite se retarde)", da: "Lli zreb, t3ettel", ar: "اللي زرب تعطل", note: "Placer un proverbe au bon moment = respect immédiat !" },
     { fr: "Le passé est le passé (ce qui est passé est mort)", da: "Lli fat, mat", ar: "اللي فات مات", note: "Pour tourner la page." },
@@ -380,7 +380,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "amour-amitie", icon: "heart", title: "Amour & amitié", group: "Parler comme un local",
+  id: "amour-amitie", icon: "❤️", title: "Amour & amitié", group: "Parler comme un local",
   items: [
     { fr: "Je t'aime", da: "Kan-bghik", ar: "كنبغيك", note: "Kan-bghik bzaf = je t'aime très fort (jamais « mzyan » !)." },
     { fr: "Mon amour", da: "7bibi / 7bibti", ar: "حبيبي", note: "7bibi à un homme, 7bibti à une femme. Aussi entre amis !" },

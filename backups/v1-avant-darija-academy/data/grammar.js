@@ -1,7 +1,7 @@
 /* Leçons de grammaire — issues de la formation intégrale (75 modules) */
 window.DATA.grammar.push(
 {
-  id: "phonetique", icon: "type", title: "L'alphabet phonétique", sub: "3, 7, 8, 9, 2 — la clé de voûte", cat: "Phonétique & bases",
+  id: "phonetique", icon: "🔤", title: "L'alphabet phonétique", sub: "3, 7, 8, 9, 2 — la clé de voûte", cat: "Phonétique & bases",
   body: `
 <p>Le darija s'écrit ici en alphabet latin complété par des chiffres (l'alphabet « chat », la norme sur internet au Maroc). Ta prononciation doit être <b>chirurgicale</b> : c'est elle qui te fera passer pour un local.</p>
 <table class="gtable"><tr><th>Symbole</th><th>Son</th><th>Comment le produire</th><th>Exemple</th></tr>
@@ -13,12 +13,12 @@ window.DATA.grammar.push(
 <tr><td><b>kh</b></td><td>Kha</td><td>La jota espagnole / « ch » allemand de Bach — ça gratte le haut de la gorge</td><td>Khouya (mon frère)</td></tr>
 <tr><td><b>gh</b></td><td>Ghayn</td><td>Le « R » grasseyé français (Paris), un peu plus profond</td><td>Ghali (cher)</td></tr>
 <tr><td><b>sh</b></td><td>Shin</td><td>« ch » français de chat</td><td>Shems (soleil)</td></tr></table>
-<div class="tip"><b>Le secret de la vitesse :</b> mange les voyelles courtes ! Un Français dit « Kee-da-yeer », un Marocain dit « Kdayr ». C'est ça, l'authenticité.</div>
-<div class="ex"><div class="txt"><div class="da-line">Es-salam 3alikom  3 depuis la gorge</div><div class="fr-line">Entraîne-toi : 3–7–9 sont TES trois sons signatures</div></div></div>
+<div class="tip">💡 <b>Le secret de la vitesse :</b> mange les voyelles courtes ! Un Français dit « Kee-da-yeer », un Marocain dit « Kdayr ». C'est ça, l'authenticité.</div>
+<div class="ex"><div class="txt"><div class="da-line">Es-salam 3alikom → 3 depuis la gorge</div><div class="fr-line">Entraîne-toi : 3–7–9 sont TES trois sons signatures</div></div></div>
 <p>Distingue bien <b>7</b> (raclé — <i>7emmam</i> = bain) et <b>8</b> (doux — <i>8uma</i> = eux). Confondre les deux change le sens des mots !</p>`
 },
 {
-  id: "salutations-rituels", icon: "hand", title: "Les rituels de salutation", sub: "Ne jamais être repéré comme touriste", cat: "Phonétique & bases",
+  id: "salutations-rituels", icon: "🤝", title: "Les rituels de salutation", sub: "Ne jamais être repéré comme touriste", cat: "Phonétique & bases",
   body: `
 <p>Au Maroc, la salutation est un <b>rituel</b>, pas une formalité. La façon dont tu salues définit ta familiarité avec la culture et la région.</p>
 <h3>1. La salutation universelle</h3>
@@ -35,10 +35,10 @@ window.DATA.grammar.push(
 <p>Ne réponds jamais juste « oui » ou « bien ». Un local associe toujours la santé à la grâce divine :</p>
 <div class="ex"><div class="txt"><div class="da-line">Labess, l-7emdu l-illah</div><div class="fr-line">Bien, Dieu merci — la réponse standard</div></div></div>
 <div class="ex"><div class="txt"><div class="da-line">Bikhir, l-7emdu l-illah · Koulshi mzyan</div><div class="fr-line">Très bien, Dieu merci · Tout va bien</div></div></div>
-<div class="tip">Enchaîne plusieurs questions à la suite sans attendre la réponse (kidayer ? labess ? koulshi mzyan ? l-3a2ila ?) — c'est comme ça qu'on salue vraiment au Maroc !</div>`
+<div class="tip">💡 Enchaîne plusieurs questions à la suite sans attendre la réponse (kidayer ? labess ? koulshi mzyan ? l-3a2ila ?) — c'est comme ça qu'on salue vraiment au Maroc !</div>`
 },
 {
-  id: "phrase-nominale", icon: "layers", title: "Pas de verbe « être »", sub: "Le squelette de la phrase", cat: "Grammaire essentielle",
+  id: "phrase-nominale", icon: "🧱", title: "Pas de verbe « être »", sub: "Le squelette de la phrase", cat: "Grammaire essentielle",
   body: `
 <p>La règle la plus importante pour désapprendre le français : <b>le verbe « être » n'existe pas au présent</b>. On juxtapose simplement le pronom et l'adjectif ou le nom.</p>
 <div class="ex"><div class="txt"><div class="da-line">Ana mzyan.</div><div class="fr-line">Je [suis] bien.</div></div></div>
@@ -58,24 +58,24 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">8adshi mzyan. · Sa3ib. · Ana.</div><div class="fr-line">C'est bien. · C'est difficile. · C'est moi.</div></div></div>`
 },
 {
-  id: "article-defini", icon: "moon", title: "L'article : lunaire ou solaire ?", sub: "L-ktab mais S-sbitar", cat: "Grammaire essentielle",
+  id: "article-defini", icon: "🌙", title: "L'article : lunaire ou solaire ?", sub: "L-ktab mais S-sbitar", cat: "Grammaire essentielle",
   body: `
 <p>Un seul article défini : <b>L-</b>. Mais devant certaines lettres, le L disparaît et la première consonne est <b>doublée avec force</b>. C'est CE détail qui te rendra indiscernable d'un Marocain.</p>
-<h3>Lettres lunaires  on prononce le L</h3>
+<h3>Lettres lunaires → on prononce le L</h3>
 <p>b, m, f, 9, k, 8, kh, gh, 3, 7, w, y…</p>
 <div class="ex"><div class="txt"><div class="da-line">L-ktab · L-bnt · L-3in · L-khobz</div><div class="fr-line">le livre · la fille · l'œil · le pain</div></div></div>
-<h3>Lettres solaires  on avale le L, on double la consonne</h3>
+<h3>Lettres solaires → on avale le L, on double la consonne</h3>
 <p>t, d, r, z, s, sh, n, j, l…</p>
-<table class="gtable"><tr><th>Mot</th><th>Jamais</th><th>Toujours</th></tr>
+<table class="gtable"><tr><th>Mot</th><th>❌ Jamais</th><th>✅ Toujours</th></tr>
 <tr><td>Soleil</td><td>L-shems</td><td><b>Sh-shems</b></td></tr>
 <tr><td>Homme</td><td>L-rajel</td><td><b>R-rajel</b></td></tr>
 <tr><td>Maison</td><td>L-dar</td><td><b>D-dar</b></td></tr>
 <tr><td>Rue</td><td>L-zen9a</td><td><b>Z-zen9a</b></td></tr>
 <tr><td>Hôpital</td><td>L-sbitar</td><td><b>S-sbitar</b></td></tr></table>
-<div class="tip">Exercice mental : ne dis plus jamais « L-sbitar » — prononce « S-sbitar » d'un seul bloc, en appuyant fort sur le S.</div>`
+<div class="tip">💡 Exercice mental : ne dis plus jamais « L-sbitar » — prononce « S-sbitar » d'un seul bloc, en appuyant fort sur le S.</div>`
 },
 {
-  id: "possession", icon: "key", title: "La possession : dyal & co", sub: "Dyal, nta3, de — la carte des régions", cat: "Grammaire essentielle",
+  id: "possession", icon: "🔑", title: "La possession : dyal & co", sub: "Dyal, nta3, de — la carte des régions", cat: "Grammaire essentielle",
   body: `
 <p>Pour dire « de » ou « à », on utilise une particule de liaison. C'est ici que les différences régionales sont <b>les plus marquées</b> :</p>
 <table class="gtable"><tr><th>Particule</th><th>Où ?</th></tr>
@@ -97,14 +97,14 @@ window.DATA.grammar.push(
 <p>Pour les proches, on colle le suffixe directement : Khu<b>ya</b> (mon frère), Kht<b>i</b> (ma sœur), Weld<b>i</b> (mon fils), Bnt<b>i</b> (ma fille), Rajl<b>i</b> (mon mari), Mrat<b>i</b> (ma femme).</p>`
 },
 {
-  id: "demonstratifs", icon: "pointer", title: "Les démonstratifs", sub: "8ada, 8adi, 8adu… et 8adak au loin", cat: "Grammaire essentielle",
+  id: "demonstratifs", icon: "👉", title: "Les démonstratifs", sub: "8ada, 8adi, 8adu… et 8adak au loin", cat: "Grammaire essentielle",
   body: `
 <h3>Proche : 8ada / 8adi / 8adu</h3>
 <table class="gtable"><tr><th></th><th>Seul (c'est…)</th><th>Devant un nom (ce/cette…)</th></tr>
 <tr><td>Masculin</td><td><b>8ada</b> ktab — c'est un livre</td><td><b>8ad</b> l-ktab — ce livre</td></tr>
 <tr><td>Féminin</td><td><b>8adi</b> tomobil — c'est une voiture</td><td><b>8ad</b> t-tomobil — cette voiture</td></tr>
 <tr><td>Pluriel</td><td><b>8adu</b> nass — ce sont des gens</td><td><b>8ad</b> n-nass — ces gens</td></tr></table>
-<div class="tip">Devant un nom défini, tout se contracte en <b>8ad</b> pour tous les genres : 8ad l-weld (ce garçon), 8ad l-bnt (cette fille). Et le nom prend TOUJOURS l'article défini.</div>
+<div class="tip">💡 Devant un nom défini, tout se contracte en <b>8ad</b> pour tous les genres : 8ad l-weld (ce garçon), 8ad l-bnt (cette fille). Et le nom prend TOUJOURS l'article défini.</div>
 <h3>Éloigné : ajoute un -k</h3>
 <table class="gtable"><tr><th>Proche</th><th>Éloigné</th><th>Exemple</th></tr>
 <tr><td>8ada</td><td><b>8adak</b></td><td>Bghit 8adak — je veux celui-là (là-bas)</td></tr>
@@ -114,7 +114,7 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">8adshi mzyan · 8adshi lli kayn · Shnu 8adshi ?</div><div class="fr-line">C'est bien · C'est tout ce qu'il y a · C'est quoi ça ?</div></div></div>`
 },
 {
-  id: "avoir-3end", icon: "box", title: "Avoir : 3end, fiya, khass", sub: "Trois structures pour tout posséder", cat: "Grammaire essentielle",
+  id: "avoir-3end", icon: "🎒", title: "Avoir : 3end, fiya, khass", sub: "Trois structures pour tout posséder", cat: "Grammaire essentielle",
   body: `
 <h3>1. 3end = avoir (possession)</h3>
 <p>Le verbe « avoir » n'existe pas : on utilise la préposition <b>3end</b> (chez) + suffixe.</p>
@@ -134,12 +134,12 @@ window.DATA.grammar.push(
 <p>Obligation absolue : <b>Darouri</b>. Darouri t-ji ! = il faut absolument que tu viennes. Mashi darouri = pas obligé.</p>`
 },
 {
-  id: "negation", icon: "ban", title: "La négation ma…sh", sub: "Encadrer le verbe comme ne…pas", cat: "Grammaire essentielle",
+  id: "negation", icon: "🚫", title: "La négation ma…sh", sub: "Encadrer le verbe comme ne…pas", cat: "Grammaire essentielle",
   body: `
 <p>La négation <b>encadre</b> le verbe : <b>Ma</b> au début + <b>sh</b> à la fin, exactement comme « ne…pas ».</p>
-<div class="ex"><div class="txt"><div class="da-line">Kan-9der  Ma kan-9der-sh</div><div class="fr-line">Je peux  je ne peux pas</div></div></div>
-<div class="ex"><div class="txt"><div class="da-line">F8emt  Ma f8emt-sh</div><div class="fr-line">J'ai compris  je n'ai pas compris</div></div></div>
-<div class="ex"><div class="txt"><div class="da-line">3endi  Ma 3endi-sh</div><div class="fr-line">J'ai  je n'ai pas</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">Kan-9der → Ma kan-9der-sh</div><div class="fr-line">Je peux → je ne peux pas</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">F8emt → Ma f8emt-sh</div><div class="fr-line">J'ai compris → je n'ai pas compris</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">3endi → Ma 3endi-sh</div><div class="fr-line">J'ai → je n'ai pas</div></div></div>
 <h3>Les exceptions SANS -sh</h3>
 <p>Avec walu (rien), 7ta wa7ed (personne), 3emmer (jamais), ghir (seulement) : pas de -sh !</p>
 <div class="ex"><div class="txt"><div class="da-line">Ma sheft walu. · 3emmri ma mshit l-Marrakech.</div><div class="fr-line">Je n'ai rien vu. · Je ne suis jamais allé à Marrakech.</div></div></div>
@@ -148,7 +148,7 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">Mashi s7i7. · Mashi darouri. · Ana mashi mghribi.</div><div class="fr-line">Ce n'est pas vrai. · Pas obligé. · Je ne suis pas marocain.</div></div></div>`
 },
 {
-  id: "pronoms-objets", icon: "target", title: "Les pronoms objets", sub: "Shafni, 3tini, goul8a lya", cat: "Grammaire essentielle",
+  id: "pronoms-objets", icon: "🎯", title: "Les pronoms objets", sub: "Shafni, 3tini, goul8a lya", cat: "Grammaire essentielle",
   body: `
 <p>En darija, le pronom objet se <b>colle à la fin du verbe</b>. Mécanique essentielle pour parler vite.</p>
 <table class="gtable"><tr><th>Français</th><th>Suffixe</th><th>Avec Shaf (voir)</th></tr>
@@ -167,11 +167,11 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">Goul8a lya ! · Ma t-goul8a-sh lu !</div><div class="fr-line">Dis-le-moi ! · Ne le lui dis pas !</div></div></div>`
 },
 {
-  id: "pluriels", icon: "users", title: "Les pluriels & le duel", sub: "Wlad, bnat, biban… et yomayn", cat: "Grammaire essentielle",
+  id: "pluriels", icon: "👥", title: "Les pluriels & le duel", sub: "Wlad, bnat, biban… et yomayn", cat: "Grammaire essentielle",
   body: `
 <h3>1. Pluriels réguliers</h3>
 <p><b>-in</b> pour les adjectifs/métiers masculins, <b>-at</b> pour les féminins et emprunts :</p>
-<div class="ex"><div class="txt"><div class="da-line">Zwin  Zwinin · Fer7an  Fer7anin · Tomobil  Tomobilat</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">Zwin → Zwinin · Fer7an → Fer7anin · Tomobil → Tomobilat</div></div></div>
 <h3>2. Pluriels brisés (à mémoriser avec chaque mot !)</h3>
 <table class="gtable"><tr><th>Singulier</th><th>Pluriel</th><th>Sens</th></tr>
 <tr><td>Weld</td><td><b>Wlad</b></td><td>garçon(s)</td></tr>
@@ -193,16 +193,16 @@ window.DATA.grammar.push(
 <tr><td>Miya (cent)</td><td><b>Miyatayn</b></td><td>Miyatayn der8em = 200 DH</td></tr></table>`
 },
 {
-  id: "comparatif", icon: "scale", title: "Comparer : kber men…", sub: "Comparatif, superlatif & intensité", cat: "Grammaire essentielle",
+  id: "comparatif", icon: "⚖️", title: "Comparer : kber men…", sub: "Comparatif, superlatif & intensité", cat: "Grammaire essentielle",
   body: `
 <p>Pour comparer, l'adjectif <b>perd ses voyelles</b> (modèle CCeC) et on ajoute <b>men</b> (= que) :</p>
 <table class="gtable"><tr><th>Adjectif</th><th>Comparatif</th><th>Exemple</th></tr>
 <tr><td>Kbir (grand)</td><td><b>Kber</b></td><td>Ana kber mennek — je suis plus âgé que toi</td></tr>
 <tr><td>Sghir (petit)</td><td><b>Sgher</b></td><td>8uwa sgher menni</td></tr>
 <tr><td>Zwin (beau)</td><td><b>Zwen</b></td><td>8ad d-dar zwen men l-okhra</td></tr>
-<tr><td>Ghali (cher)</td><td><b>Ghla</b> </td><td>T-tomobil ghla men l-mutur</td></tr>
+<tr><td>Ghali (cher)</td><td><b>Ghla</b> ⚠️</td><td>T-tomobil ghla men l-mutur</td></tr>
 <tr><td>Rkhis (pas cher)</td><td><b>Rkhes</b></td><td>L-khodra rkhes l-youma</td></tr>
-<tr><td>Mzyan (bon)</td><td><b>7sen</b> </td><td>8ada 7sen men 8adak — c'est mieux que ça</td></tr></table>
+<tr><td>Mzyan (bon)</td><td><b>7sen</b> ⚠️</td><td>8ada 7sen men 8adak — c'est mieux que ça</td></tr></table>
 <h3>Le superlatif</h3>
 <div class="ex"><div class="txt"><div class="da-line">A7sen wa7ed · L-mkhiyyer · Akber weld</div><div class="fr-line">Le meilleur · Le préféré/le top · Le plus grand garçon</div></div></div>
 <h3>Les intensificateurs absolus (niveau natif !)</h3>
@@ -210,7 +210,7 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">Skhoun kay-shwi · Berd kay-9te3 · Miyet b l-3ya</div><div class="fr-line">Brûlant (qui grille) · Glacial (qui coupe) · Mort de fatigue</div></div></div>`
 },
 {
-  id: "verbes-accompli", icon: "rewind", title: "L'accompli (le passé)", sub: "F8emt, f8emti, f8em…", cat: "Conjugaison",
+  id: "verbes-accompli", icon: "⏮️", title: "L'accompli (le passé)", sub: "F8emt, f8emti, f8em…", cat: "Conjugaison",
   body: `
 <p>Le système verbal darija fonctionne par <b>état d'accomplissement</b> : l'<b>Accompli</b> (action terminée = passé) et l'<b>Inaccompli</b> (action en cours/habituelle = présent). La plupart des verbes ont une racine de 3 consonnes : F-8-M (comprendre).</p>
 <h3>Les terminaisons (universelles dans tout le Maroc)</h3>
@@ -223,13 +223,13 @@ window.DATA.grammar.push(
 <tr><td>Ntuma</td><td><b>F8emtu</b></td><td>-tu</td></tr>
 <tr><td>8uma</td><td><b>F8mu</b></td><td>-u</td></tr></table>
 <div class="ex"><div class="txt"><div class="da-line">Shnu derti l-bare7 ? — Khdemt w klit w n3est !</div><div class="fr-line">Qu'as-tu fait hier ? — J'ai travaillé, mangé et dormi !</div></div></div>
-<div class="tip"><b>Bgha (vouloir) se conjugue au passé mais se traduit au présent</b> : Bghit 9a8wa = je veux un café (litt. « j'ai voulu »). Pareil pour 3reft (je sais).</div>`
+<div class="tip">💡 <b>Bgha (vouloir) se conjugue au passé mais se traduit au présent</b> : Bghit 9a8wa = je veux un café (litt. « j'ai voulu »). Pareil pour 3reft (je sais).</div>`
 },
 {
-  id: "verbes-inaccompli", icon: "play", title: "L'inaccompli (le présent)", sub: "Kan-, kat-, kay- … et ta- à Marrakech", cat: "Conjugaison",
+  id: "verbes-inaccompli", icon: "▶️", title: "L'inaccompli (le présent)", sub: "Kan-, kat-, kay- … et ta- à Marrakech", cat: "Conjugaison",
   body: `
 <p>Pour le présent ou l'habitude : préfixe de temps <b>Ka-</b> + lettre d'accord + verbe.</p>
-<table class="gtable"><tr><th>Pronom</th><th>Préfixe</th><th>F8em  </th></tr>
+<table class="gtable"><tr><th>Pronom</th><th>Préfixe</th><th>F8em → </th></tr>
 <tr><td>Ana</td><td>ka + <b>n</b></td><td><b>Kan-f8em</b></td></tr>
 <tr><td>Nta</td><td>ka + <b>t</b></td><td><b>Kat-f8em</b></td></tr>
 <tr><td>Nti</td><td>ka + <b>t…i</b></td><td><b>Kat-f8mi</b></td></tr>
@@ -238,23 +238,23 @@ window.DATA.grammar.push(
 <tr><td>7na</td><td>ka + <b>n…u</b></td><td><b>Kan-f8mu</b></td></tr>
 <tr><td>Ntuma</td><td>ka + <b>t…u</b></td><td><b>Kat-f8mu</b></td></tr>
 <tr><td>8uma</td><td>ka + <b>y…u</b></td><td><b>Kay-f8mu</b></td></tr></table>
-<div class="reg"><b>La grande différence régionale :</b><br>• <b>Ka-</b> : standard (Casablanca, Rabat, Nord)<br>• <b>Ta-</b> : Marrakech, Fès et zones rurales  <i>Tan-f8em</i> au lieu de <i>Kan-f8em</i><br>• <b>Da-</b> : certaines zones du Rif/Jbala</div>
+<div class="reg">🗺️ <b>La grande différence régionale :</b><br>• <b>Ka-</b> : standard (Casablanca, Rabat, Nord)<br>• <b>Ta-</b> : Marrakech, Fès et zones rurales → <i>Tan-f8em</i> au lieu de <i>Kan-f8em</i><br>• <b>Da-</b> : certaines zones du Rif/Jbala</div>
 <div class="ex"><div class="txt"><div class="da-line">Kan-khdem f Casa. · Kat-8der d-darija mzyan !</div><div class="fr-line">Je travaille à Casa. · Tu parles bien darija !</div></div></div>
-<div class="tip">Sans « ka- », l'inaccompli devient un subjonctif : Bghit <b>n-mshi</b> = je veux partir (jamais « bghit kan-mshi »).</div>`
+<div class="tip">💡 Sans « ka- », l'inaccompli devient un subjonctif : Bghit <b>n-mshi</b> = je veux partir (jamais « bghit kan-mshi »).</div>`
 },
 {
-  id: "futur", icon: "forward", title: "Le futur : ghadi / gha", sub: "Le temps le plus simple", cat: "Conjugaison",
+  id: "futur", icon: "⏭️", title: "Le futur : ghadi / gha", sub: "Le temps le plus simple", cat: "Conjugaison",
   body: `
 <p>Particule <b>Ghadi</b> (souvent contractée en <b>Gha</b>) + verbe à l'inaccompli <b>sans « ka- »</b> :</p>
 <div class="ex"><div class="txt"><div class="da-line">Gha n-f8em</div><div class="fr-line">Je comprendrai</div></div></div>
 <div class="ex"><div class="txt"><div class="da-line">8uwa gha y-f8em · 7na gha n-f8mu</div><div class="fr-line">Il comprendra · Nous comprendrons</div></div></div>
 <div class="ex"><div class="txt"><div class="da-line">Gha n-mshi ghedda l Marrakech, inshaAllah.</div><div class="fr-line">J'irai demain à Marrakech, si Dieu veut.</div></div></div>
-<div class="tip"><b>Jamais de futur sans InshaAllah</b> quand tu annonces un projet — c'est une règle culturelle autant que linguistique !</div>
+<div class="tip">💡 <b>Jamais de futur sans InshaAllah</b> quand tu annonces un projet — c'est une règle culturelle autant que linguistique !</div>
 <p>Forme complète Ghadi (qui s'accorde parfois : ghadya au féminin, ghadyin au pluriel) ou forme courte gha — les deux sont correctes, gha est plus rapide à l'oral.</p>
 <div class="ex"><div class="txt"><div class="da-line">Négation : Ma gha n-mshi-sh.</div><div class="fr-line">Je n'irai pas.</div></div></div>`
 },
 {
-  id: "imperatif", icon: "megaphone", title: "L'impératif", sub: "Shreb ! Sir ! Aji ! Ara !", cat: "Conjugaison",
+  id: "imperatif", icon: "📢", title: "L'impératif", sub: "Shreb ! Sir ! Aji ! Ara !", cat: "Conjugaison",
   body: `
 <h3>Verbes réguliers</h3>
 <p>Forme de base sans préfixe + terminaisons. Shreb (boire) :</p>
@@ -264,7 +264,7 @@ window.DATA.grammar.push(
 <tr><td>Un groupe</td><td><b>Sherbu !</b></td></tr></table>
 <h3>Les 5 impératifs irréguliers incontournables</h3>
 <table class="gtable"><tr><th>Verbe</th><th>M / F / Pluriel</th><th>Note</th></tr>
-<tr><td>Aller</td><td><b>Sir / Siri / Siru</b></td><td>JAMAIS « mshi » ! Sir sec = « dégage »  dis Sir 3afak</td></tr>
+<tr><td>Aller</td><td><b>Sir / Siri / Siru</b></td><td>JAMAIS « mshi » ! Sir sec = « dégage » → dis Sir 3afak</td></tr>
 <tr><td>Venir</td><td><b>Aji / Aji / Ajiw</b></td><td>Aji l 8na = viens ici</td></tr>
 <tr><td>Donner</td><td><b>Ara / Aray / Araw</b></td><td>Ou Jib liya (apporte-moi)</td></tr>
 <tr><td>Regarder</td><td><b>Shouf / Shoufi / Shoufu</b></td><td>Shouf shouf ! = regarde-moi ça !</td></tr>
@@ -274,7 +274,7 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">Ma t-khle3ni-sh ! · Ma t-goul8a-sh lu !</div><div class="fr-line">Ne me fais pas peur ! · Ne le lui dis pas !</div></div></div>`
 },
 {
-  id: "verbes-faibles", icon: "refresh", title: "Les verbes faibles (en -a)", sub: "Kra, nsa, l9a, shra, kla…", cat: "Conjugaison",
+  id: "verbes-faibles", icon: "🌀", title: "Les verbes faibles (en -a)", sub: "Kra, nsa, l9a, shra, kla…", cat: "Conjugaison",
   body: `
 <p>Beaucoup de verbes finissent par une voyelle « a » : ce sont les <b>verbes faibles</b>. La voyelle finale se transforme en <b>i</b> à l'accompli pour la plupart des pronoms.</p>
 <h3>Accompli : Kra (louer) / Nsa (oublier)</h3>
@@ -288,11 +288,11 @@ window.DATA.grammar.push(
 <tr><td>8uma</td><td><b>Kraw</b></td><td><b>Nsaw</b></td></tr></table>
 <h3>Inaccompli</h3>
 <div class="ex"><div class="txt"><div class="da-line">Kan-kri · Kat-kri · Kay-kri · Kan-kriw · Kay-kriw</div><div class="fr-line">Le pluriel prend -w : kan-kriw = nous louons</div></div></div>
-<p>Sur le même modèle : <b>L9a</b> (trouver)  L9it · <b>Shra</b> (acheter)  Shrit · <b>Kla</b> (manger)  Klit · <b>Bka</b> (pleurer)  Bkit · <b>Bra</b> (guérir)  Brit · <b>Bda</b> (commencer)  Bdit · <b>Msha</b> (aller)  Mshit · <b>Ja</b> (venir)  Jit.</p>
+<p>Sur le même modèle : <b>L9a</b> (trouver) → L9it · <b>Shra</b> (acheter) → Shrit · <b>Kla</b> (manger) → Klit · <b>Bka</b> (pleurer) → Bkit · <b>Bra</b> (guérir) → Brit · <b>Bda</b> (commencer) → Bdit · <b>Msha</b> (aller) → Mshit · <b>Ja</b> (venir) → Jit.</p>
 <div class="ex"><div class="txt"><div class="da-line">Nsit s-swaret f d-dar !</div><div class="fr-line">J'ai oublié les clés à la maison !</div></div></div>`
 },
 {
-  id: "imparfait-kan", icon: "clock", title: "L'imparfait : kan + présent", sub: "Kent kan-akul = je mangeais", cat: "Conjugaison",
+  id: "imparfait-kan", icon: "🕰️", title: "L'imparfait : kan + présent", sub: "Kent kan-akul = je mangeais", cat: "Conjugaison",
   body: `
 <p>Pour raconter au passé (« je faisais, j'avais l'habitude de »), combine l'accompli de <b>Kan</b> (être) + l'inaccompli du verbe :</p>
 <h3>1. Conjugaison de Kan (j'étais)</h3>
@@ -308,14 +308,14 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">Kan kay-khdem 8na.</div><div class="fr-line">Il travaillait ici.</div></div></div>
 <div class="ex"><div class="txt"><div class="da-line">Kenna kan-seknu f R-rbat.</div><div class="fr-line">Nous habitions à Rabat.</div></div></div>
 <div class="ex"><div class="txt"><div class="da-line">Shnu kenti kat-dir l-bare7 ?</div><div class="fr-line">Qu'est-ce que tu faisais hier ?</div></div></div>
-<div class="tip">Kan + khass = « j'aurais dû » : Kan khasni n-ji bekri = j'aurais dû venir plus tôt.</div>`
+<div class="tip">💡 Kan + khass = « j'aurais dû » : Kan khasni n-ji bekri = j'aurais dû venir plus tôt.</div>`
 },
 {
-  id: "participe-actif", icon: "zap", title: "Le participe actif", sub: "Le secret du « vrai » présent", cat: "Conjugaison",
+  id: "participe-actif", icon: "🏃", title: "Le participe actif", sub: "Le secret du « vrai » présent", cat: "Conjugaison",
   body: `
 <p>Erreur classique des étrangers ! Pour les verbes de <b>mouvement</b> (aller, venir) et d'<b>état</b> (dormir, s'asseoir, porter), l'action en cours à l'instant précis ne se dit PAS avec kan- : on utilise le <b>participe actif</b> (un adjectif verbal).</p>
-<div class="ex"><div class="txt"><div class="da-line">Kan-mshi l-khedma dima.</div><div class="fr-line">Je vais au travail toujours (habitude  inaccompli)</div></div></div>
-<div class="ex"><div class="txt"><div class="da-line">Ana mashi l-khedma daba.</div><div class="fr-line">Je suis en train d'y aller maintenant ( participe !)</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">Kan-mshi l-khedma dima.</div><div class="fr-line">Je vais au travail toujours (habitude → inaccompli)</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">Ana mashi l-khedma daba.</div><div class="fr-line">Je suis en train d'y aller maintenant (→ participe !)</div></div></div>
 <h3>Formation (s'accorde en genre et nombre)</h3>
 <table class="gtable"><tr><th>Verbe</th><th>Masculin</th><th>Féminin</th><th>Pluriel</th></tr>
 <tr><td>Msha (aller)</td><td><b>Mashi</b></td><td>Mashya</td><td>Mashyin</td></tr>
@@ -326,10 +326,10 @@ window.DATA.grammar.push(
 <tr><td>Lbes (porter)</td><td><b>Labes</b></td><td>Labsa</td><td>Labsin</td></tr></table>
 <div class="ex"><div class="txt"><div class="da-line">Finak ? — Ana gales f l-9a8wa.</div><div class="fr-line">T'es où ? — Je suis assis au café.</div></div></div>
 <div class="ex"><div class="txt"><div class="da-line">8uma na3sin. · 8uwa labes 9amija zwina.</div><div class="fr-line">Ils dorment. · Il porte une belle chemise.</div></div></div>
-<div class="tip">Au téléphone : Ana jay ! = j'arrive ! (jamais « kan-ji »). Ana f t-tri9 = je suis en route.</div>`
+<div class="tip">💡 Au téléphone : Ana jay ! = j'arrive ! (jamais « kan-ji »). Ana f t-tri9 = je suis en route.</div>`
 },
 {
-  id: "verbes-t", icon: "refresh", title: "Préfixe T- & quadrilittères", sub: "Se voir, être payé… et kherbe9 !", cat: "Conjugaison",
+  id: "verbes-t", icon: "🔄", title: "Préfixe T- & quadrilittères", sub: "Se voir, être payé… et kherbe9 !", cat: "Conjugaison",
   body: `
 <h3>1. La réciprocité (préfixe T-)</h3>
 <table class="gtable"><tr><th>Verbe</th><th>Forme T-</th><th>Sens</th></tr>
@@ -337,8 +337,8 @@ window.DATA.grammar.push(
 <tr><td>L9a (trouver)</td><td><b>Tla9a</b></td><td>se rencontrer — Tla9it m3a sa7bi</td></tr>
 <tr><td>F8em (comprendre)</td><td><b>Tfa8em</b></td><td>s'entendre — Tfa8emna 3la t-taman</td></tr></table>
 <h3>2. Le passif (subir l'action)</h3>
-<div class="ex"><div class="txt"><div class="da-line">Wesh tkhlesti l-youma ?</div><div class="fr-line">As-tu été payé aujourd'hui ? (khles  tkhles)</div></div></div>
-<div class="ex"><div class="txt"><div class="da-line">T-tomobil dyali tsre9at !</div><div class="fr-line">Ma voiture a été volée ! (sre9  tsre9)</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">Wesh tkhlesti l-youma ?</div><div class="fr-line">As-tu été payé aujourd'hui ? (khles → tkhles)</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">T-tomobil dyali tsre9at !</div><div class="fr-line">Ma voiture a été volée ! (sre9 → tsre9)</div></div></div>
 <h3>3. Les verbes à 4 consonnes (quadrilittères)</h3>
 <p>Typiques de l'oralité — bruits, actions répétitives, argot. Conjugaison ultra-simple, la racine ne change jamais :</p>
 <table class="gtable"><tr><th>Verbe</th><th>Sens</th><th>Exemple</th></tr>
@@ -349,7 +349,7 @@ window.DATA.grammar.push(
 <tr><td><b>Zwezwa</b></td><td>frissonner (courant d'air)</td><td>Kay-zwezwi l-berd 8na</td></tr></table>`
 },
 {
-  id: "subordonnees", icon: "puzzle", title: "Bash, 9bel ma, ila, koun…", sub: "Lier les actions comme un natif", cat: "Niveau avancé",
+  id: "subordonnees", icon: "🧩", title: "Bash, 9bel ma, ila, koun…", sub: "Lier les actions comme un natif", cat: "Niveau avancé",
   body: `
 <p>Règle stricte : chaque connecteur impose le temps du verbe qui suit !</p>
 <h3>+ Inaccompli SANS ka- (valeur de subjonctif)</h3>
@@ -369,7 +369,7 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">Koun ghir sheftu…</div><div class="fr-line">Si seulement je l'avais vu…</div></div></div>`
 },
 {
-  id: "lli-relatif", icon: "link", title: "Lli & le discours indirect", sub: "Un seul mot pour qui/que/dont", cat: "Niveau avancé",
+  id: "lli-relatif", icon: "🔗", title: "Lli & le discours indirect", sub: "Un seul mot pour qui/que/dont", cat: "Niveau avancé",
   body: `
 <h3>Lli : le lien universel</h3>
 <p>Là où le français choisit entre qui, que, quoi, dont, où… le darija n'a qu'un mot : <b>Lli</b>.</p>
@@ -384,10 +384,10 @@ window.DATA.grammar.push(
 <tr><td>Je lui ai dit</td><td><b>Gelt lu</b></td></tr></table>
 <div class="ex"><div class="txt"><div class="da-line">Gal lya belli 8uwa mrid.</div><div class="fr-line">Il m'a dit qu'il est malade.</div></div></div>
 <div class="ex"><div class="txt"><div class="da-line">3reft belli nta mghribi !</div><div class="fr-line">Je sais que tu es marocain !</div></div></div>
-<div class="reg">Nord (Tanger/Tétouan) : <b>Bi-anna</b> ou <b>Biyan</b> au lieu de belli.</div>`
+<div class="reg">🗺️ Nord (Tanger/Tétouan) : <b>Bi-anna</b> ou <b>Biyan</b> au lieu de belli.</div>`
 },
 {
-  id: "heure", icon: "clock", title: "L'heure à la marocaine", sub: "Le système des 9sem (blocs de 5 min)", cat: "Niveau avancé",
+  id: "heure", icon: "🕐", title: "L'heure à la marocaine", sub: "Le système des 9sem (blocs de 5 min)", cat: "Niveau avancé",
   body: `
 <p>Demander l'heure : <b>Sh7al f s-sa3a ?</b> On utilise le format 12h + le moment de la journée, et on compte les minutes par blocs de 5 appelés <b>9sem</b> !</p>
 <h3>Les fractions</h3>
@@ -405,10 +405,10 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">8adi s-setta w 9esmayn dyal l-3shiya.</div><div class="fr-line">Il est 18h10 (6h10 de l'après-midi)</div></div></div>
 <p>Moments : <b>dyal s-sba7</b> (du matin) · <b>dyal l-3shiya</b> (de l'après-midi) · <b>dyal l-lil</b> (de la nuit).</p>
 <div class="ex"><div class="txt"><div class="da-line">N-tla9aw f r-reb3a w ness dyal l-3shiya.</div><div class="fr-line">RDV à 16h30.</div></div></div>
-<div class="tip">D-9i9a = la minute. Wa7ed d-9i9a ! = une minute ! (avec ton 9 bien profond)</div>`
+<div class="tip">💡 D-9i9a = la minute. Wa7ed d-9i9a ! = une minute ! (avec ton 9 bien profond)</div>`
 },
 {
-  id: "moul-diminutifs", icon: "heart", title: "Moul, diminutifs & affection", sub: "Moul l-7anut, wliyed, dwira…", cat: "Niveau avancé",
+  id: "moul-diminutifs", icon: "🧸", title: "Moul, diminutifs & affection", sub: "Moul l-7anut, wliyed, dwira…", cat: "Niveau avancé",
   body: `
 <h3>1. Le concept « Moul » (le maître de la chose)</h3>
 <p>On désigne les gens par ce qu'ils possèdent/font :</p>
@@ -429,10 +429,10 @@ window.DATA.grammar.push(
 <tr><td>Khobz</td><td><b>Khbiza</b></td><td>un petit pain</td></tr>
 <tr><td>Zwin</td><td><b>Zwiwen</b></td><td>tout mignon</td></tr>
 <tr><td>Shwiya</td><td><b>Shwiwya</b></td><td>un tout petit peu</td></tr></table>
-<div class="tip">Pour ne pas paraître exigeant : 3tini wa7ed l-w9iyet (donne-moi un petit moment) plutôt que 3tini l-we9t !</div>`
+<div class="tip">💡 Pour ne pas paraître exigeant : 3tini wa7ed l-w9iyet (donne-moi un petit moment) plutôt que 3tini l-we9t !</div>`
 },
 {
-  id: "particules", icon: "sparkles", title: "Ra-, yak, iwa, yallah…", sub: "Le ciment de la fluidité", cat: "Niveau avancé",
+  id: "particules", icon: "✨", title: "Ra-, yak, iwa, yallah…", sub: "Le ciment de la fluidité", cat: "Niveau avancé",
   body: `
 <p>Un étranger parle trop « propre ». Les locaux ponctuent avec ces particules — le secret ultime de la fluidité !</p>
 <h3>1. Ra- : la certitude absolue</h3>
@@ -451,7 +451,7 @@ window.DATA.grammar.push(
 <div class="ex"><div class="txt"><div class="da-line">Ghir kan-t9sheb m3ak !</div><div class="fr-line">Je plaisante, c'est tout !</div></div></div>`
 },
 {
-  id: "regions", icon: "map", title: "Panorama des régions", sub: "Casa, Nord, Oriental, Sud : le lexique vital", cat: "Régions & culture",
+  id: "regions", icon: "🗺️", title: "Panorama des régions", sub: "Casa, Nord, Oriental, Sud : le lexique vital", cat: "Régions & culture",
   body: `
 <p>Le darija de l'axe <b>Casablanca-Rabat</b> est compris partout (grâce à la télé). Mais chaque région a ses mots signatures — les voici pour t'adapter n'importe où :</p>
 <h3>Les marqueurs d'identité</h3>
@@ -471,12 +471,12 @@ window.DATA.grammar.push(
 <tr><td>Argent</td><td>Flous</td><td>Flous</td><td><b>Dra8em</b></td></tr>
 <tr><td>Deux</td><td>Juj</td><td>Juj</td><td><b>Zouj</b></td></tr></table>
 <h3>Les préfixes verbaux</h3>
-<div class="reg">Présent : <b>Ka-</b> (Casa/Rabat/Nord) · <b>Ta-</b> (Marrakech, Fès) · <b>Da-</b> (Rif/Jbala).<br>Possession : <b>Dyal</b> (Centre/Sud) · <b>Nta3</b> (Oriental) · <b>De</b> (Tanger).<br>« Que » : <b>Belli</b> (Centre) · <b>Bi-anna</b> (Nord).</div>
+<div class="reg">🗺️ Présent : <b>Ka-</b> (Casa/Rabat/Nord) · <b>Ta-</b> (Marrakech, Fès) · <b>Da-</b> (Rif/Jbala).<br>Possession : <b>Dyal</b> (Centre/Sud) · <b>Nta3</b> (Oriental) · <b>De</b> (Tanger).<br>« Que » : <b>Belli</b> (Centre) · <b>Bi-anna</b> (Nord).</div>
 <h3>La musique des accents</h3>
-<p>• <b>Centre</b> : on interpelle avec « A » (A khuya ! A sa7bi !)<br>• <b>Nord</b> : intonation hispanisante, « Ay » en fin de prénoms<br>• <b>Marrakech/Sud</b> : parler traînant et chantant, ponctué de « A sidi »<br>• <b>Fès</b> : le 9 devient souvent un 2 (hamza) — 9al  2al — et un parler jugé « précieux »</p>`
+<p>• <b>Centre</b> : on interpelle avec « A » (A khuya ! A sa7bi !)<br>• <b>Nord</b> : intonation hispanisante, « Ay » en fin de prénoms<br>• <b>Marrakech/Sud</b> : parler traînant et chantant, ponctué de « A sidi »<br>• <b>Fès</b> : le 9 devient souvent un 2 (hamza) — 9al → 2al — et un parler jugé « précieux »</p>`
 },
 {
-  id: "politesse-culture", icon: "coffee", title: "Codes culturels & hospitalité", sub: "7shuma, niya, l-3in : survivre socialement", cat: "Régions & culture",
+  id: "politesse-culture", icon: "🍵", title: "Codes culturels & hospitalité", sub: "7shuma, niya, l-3in : survivre socialement", cat: "Régions & culture",
   body: `
 <h3>1. La 7shuma (la honte sociale)</h3>
 <p>Concept central : ce qui « ne se fait pas ». Refuser un thé sans triple insistance = 7shuma. Entrer avec ses chaussures = 7shuma. <b>7shuma 3lik !</b> = tu devrais avoir honte !</p>
@@ -495,13 +495,13 @@ window.DATA.grammar.push(
 <tr><td>Longue absence/guérison</td><td>3la slamtek</td><td><b>Llah y-selmek</b></td></tr></table>
 <h3>5. Interpeller avec la famille</h3>
 <p>Créer un lien immédiat avec des inconnus : <b>Khuya</b> (homme de ton âge), <b>Khti</b> (femme de ton âge), <b>3emmi / Khalti</b> (âge de tes parents), <b>L-7aj / L-7ajja</b> (personnes âgées).</p>
-<div class="tip">Le sarcasme existe ! Un « Tbarkellah 3lik » sec après une bêtise = « bravo, champion… ». Et « Iyeh a sidi » en hochant la tête = « cause toujours »…</div>`
+<div class="tip">💡 Le sarcasme existe ! Un « Tbarkellah 3lik » sec après une bêtise = « bravo, champion… ». Et « Iyeh a sidi » en hochant la tête = « cause toujours »…</div>`
 },
 {
-  id: "souk-rial", icon: "coins", title: "Le rial : compter comme un local", sub: "1 DH = 20 rials — le code secret du souk", cat: "Régions & culture",
+  id: "souk-rial", icon: "🧮", title: "Le rial : compter comme un local", sub: "1 DH = 20 rials — le code secret du souk", cat: "Régions & culture",
   body: `
 <p>La monnaie officielle est le <b>Dirham</b>, mais dans la rue et les marchés populaires, on compte en <b>Rials</b>. Ne pas maîtriser ça = repéré comme étranger en 3 secondes.</p>
-<div class="tip"><b>Règle d'or : 1 Dirham = 20 Rials.</b> Divise par 20 !</div>
+<div class="tip">⚡ <b>Règle d'or : 1 Dirham = 20 Rials.</b> Divise par 20 !</div>
 <table class="gtable"><tr><th>On te dit</th><th>Rials</th><th>= Dirhams</th></tr>
 <tr><td><b>Miyat riyal</b></td><td>100</td><td>5 DH</td></tr>
 <tr><td><b>Miyatayn riyal</b></td><td>200</td><td>10 DH</td></tr>
@@ -517,13 +517,13 @@ window.DATA.grammar.push(
 <p>Unités du souk : <b>Rabe3a</b> = 250 g (kefta, olives, épices) · <b>Ness rabe3a</b> = 125 g · <b>9ebta</b> = une poignée (menthe) · <b>Tref</b> = un morceau.</p>`
 },
 {
-  id: "faux-amis", icon: "alert", title: "Pièges & faux-amis", sub: "Les erreurs qui trahissent un étranger", cat: "Régions & culture",
+  id: "faux-amis", icon: "⚠️", title: "Pièges & faux-amis", sub: "Les erreurs qui trahissent un étranger", cat: "Régions & culture",
   body: `
 <h3>1. Mzyan ≠ Bzaf</h3>
 <p><b>Mzyan</b> = qualité · <b>Bzaf</b> = quantité/intensité. « Je t'aime bien » ne se traduit PAS littéralement :</p>
-<div class="ex"><div class="txt"><div class="da-line">Kan-bghik mzyan  Kan-bghik bzaf</div><div class="fr-line">Un Marocain rirait de la première version !</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">❌ Kan-bghik mzyan → ✅ Kan-bghik bzaf</div><div class="fr-line">Un Marocain rirait de la première version !</div></div></div>
 <h3>2. 9elleb sans 3la = retourner !</h3>
-<div class="ex"><div class="txt"><div class="da-line">Kan-9elleb l-mfata7  Kan-9elleb 3LA s-swaret</div><div class="fr-line">9elleb seul = retourner (une crêpe) / fouiller</div></div></div>
+<div class="ex"><div class="txt"><div class="da-line">❌ Kan-9elleb l-mfata7 → ✅ Kan-9elleb 3LA s-swaret</div><div class="fr-line">9elleb seul = retourner (une crêpe) / fouiller</div></div></div>
 <h3>3. Yeddo twila ≠ avoir le bras long</h3>
 <div class="ex"><div class="txt"><div class="da-line">Yeddo twila = c'est un VOLEUR</div><div class="fr-line">En français : avoir des relations. Contresens total !</div></div></div>
 <h3>4. Limoun = orange (pas citron !)</h3>
@@ -536,6 +536,6 @@ window.DATA.grammar.push(
 <p>Kayna sh-shta = il pleut. Sh-shtwa = l'hiver. Contexte !</p>
 <h3>8. 7emmam vs 7mam</h3>
 <p><b>L-7emmam</b> (m doublé) = le bain · <b>L-7mam</b> = les pigeons. La gémination change le sens — appuie sur les consonnes doublées !</p>
-<div class="tip">Les Marocains sont extrêmement bienveillants avec qui apprend leur langue. Un Tbarkellah 3lik ou un bzaf placé au bon moment fait tout pardonner. <b>Dir niya w sir !</b></div>`
+<div class="tip">💡 Les Marocains sont extrêmement bienveillants avec qui apprend leur langue. Un Tbarkellah 3lik ou un bzaf placé au bon moment fait tout pardonner. <b>Dir niya w sir !</b></div>`
 }
 );

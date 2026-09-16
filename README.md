@@ -1,28 +1,47 @@
-# 🇲🇦 Darija — Apprends le marocain
+# Darija Academy — Apprends le marocain
 
-Application web (PWA) pour apprendre le **darija marocain**, destinée aux francophones.
-Focus sur la **phonétique** (3 = 3ayn · 7 = h expiré · 8 = h doux · 9 = qaf · 2 = hamza) pour parler comme un local.
+Application web (PWA) pour devenir **bilingue en darija marocain** et apprendre l'**arabe standard** en parallèle, destinée aux francophones.
+Phonétique : 3 = ع (3ayn) · 7 = ح (h expiré) · 8 = ه (h doux) · 9 = ق (qaf, prononcé g à Casablanca-Marrakech) · 2 = ء (hamza) · kh · gh · sh.
 
-**➡️ Ouvrir l'application : https://daryl-25.github.io/darija-app/**
+**Ouvrir l'application : https://daryl-25.github.io/darija-app/**
 
-## 📱 Installer sur iPhone
+## Installer sur téléphone
 
-1. Ouvre le lien ci-dessus dans **Safari**
-2. Touche le bouton **Partager** (carré avec flèche ⬆︎)
-3. Choisis **« Sur l'écran d'accueil »**
-4. L'app s'installe comme une vraie application et fonctionne **hors-ligne**
+- **iPhone** : ouvre le lien dans Safari → bouton Partager → « Sur l'écran d'accueil ».
+- **Android** : ouvre le lien dans Chrome → menu → « Ajouter à l'écran d'accueil ».
 
-## 🔊 Activer le voiceover (prononciation audio)
+L'application fonctionne ensuite hors-ligne.
 
-L'app lit l'écriture arabe avec la voix arabe du système :
-Réglages → Accessibilité → Contenu énoncé → Voix → **Arabe** → télécharger une voix.
+## Activer la prononciation
 
-## Contenu
+Le darija n'a pas de voix officielle : l'app lit l'écriture arabe avec la voix arabe du système.
+iPhone : Réglages → Accessibilité → Contenu énoncé → Voix → Arabe → télécharger une voix.
 
-- **930 mots** en 38 chapitres thématiques (salutations, nombres, famille, souk, transports, argot, proverbes…)
-- **28 leçons** de grammaire et culture (conjugaison, négation, régions, faux-amis…)
-- **26 verbes** conjugués (accompli, présent, futur, impératif, participe actif)
-- **Flashcards** avec révision espacée (système Leitner)
-- **Quiz**, exercices, memory, quiz de conjugaison et quiz des régions
-- **Variations régionales** : Casa/Rabat, Nord (Tanger), Oriental (Oujda), Sud (Marrakech)
-- XP, streak et progression sauvegardés sur l'appareil
+## Contenu (version 2)
+
+- **Théorie : 60 chapitres exhaustifs** — phonétique, le nom et l'adjectif, le verbe (tous les types et formes dérivées), la phrase (questions, négation, conditionnel, subordonnées, connecteurs), régions et culture, pont darija ↔ arabe standard.
+- **Vocabulaire : 2 678 mots et expressions** en 88 chapitres, dont le **lexique complet de 1 748 entrées** (50 thèmes) avec, pour chaque mot : darija phonétique, **étiquette régionale sur chaque variante** (CAS, FÈS, NRD, ORI, MRK, SOU, SAH…), arabe standard phonétique et arabe vocalisé.
+- **Conjugaison : 50 verbes** (accompli, présent, futur, impératif, participe actif).
+- **Flashcards paramétrables** (thèmes, recto français / darija / arabe, cartes nouvelles ou fragiles) avec révision espacée (Leitner).
+- **Mode infini paramétrable** : niveau (facile → expert), sens des questions (dont arabe → français), part de conjugaison, vies, chrono, thèmes au choix ; les mots ratés reviennent plus souvent.
+- Quiz, exercices de grammaire, memory, XP, niveaux, série de jours.
+
+## Organisation des fichiers
+
+```
+index.html              structure de l'app
+css/style.css           design (rouge du Maroc et or, même charte qu'Iqra Academy)
+js/app.js               moteur (écrans, flashcards, mode infini, quiz)
+js/icons.js             icônes vectorielles (aucun emoji dans l'interface)
+js/store.js             progression (XP, série, révision espacée, réglages)
+js/tts.js               synthèse vocale
+data/vocab-a/b/c.js     vocabulaire thématique
+data/lexique.js         lexique complet (50 thèmes, régions, arabe standard)
+data/grammar*.js        théorie (60 chapitres)
+data/conjugation*.js    verbes conjugués
+data/exercises.js       exercices de grammaire
+fonts/                  polices hébergées (hors-ligne)
+backups/                anciennes versions (voir backups/README.md)
+```
+
+Voir `CHANGELOG.md` pour l'historique des versions.

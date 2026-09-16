@@ -1,7 +1,7 @@
 /* Vocabulaire — Partie B : Vie quotidienne */
 window.DATA.vocab.push(
 {
-  id: "corps", icon: "user", title: "Le corps humain", group: "Vie quotidienne",
+  id: "corps", icon: "🫀", title: "Le corps humain", group: "Vie quotidienne",
   items: [
     { fr: "Le corps", da: "L-jesd", ar: "الجسد" },
     { fr: "La tête", da: "Ras", ar: "راس", note: "Rasso 9ase7 = il est têtu. Kber rasso = il a pris la grosse tête." },
@@ -31,7 +31,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "sante", icon: "stethoscope", title: "Santé & chez le médecin", group: "Vie quotidienne",
+  id: "sante", icon: "🩺", title: "Santé & chez le médecin", group: "Vie quotidienne",
   items: [
     { fr: "Le médecin", da: "T-tbib", ar: "الطبيب", note: "Tbib(a) dyal snan = dentiste." },
     { fr: "L'hôpital public", da: "S-sbitar", ar: "السبيطار", note: "Prononce S-sbitar d'un bloc (jamais L-sbitar) !" },
@@ -60,7 +60,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "emotions", icon: "heart", title: "Émotions & états d'âme", group: "Vie quotidienne",
+  id: "emotions", icon: "😊", title: "Émotions & états d'âme", group: "Vie quotidienne",
   items: [
     { fr: "Content / heureux", da: "Fer7an", ar: "فرحان", note: "8iya fer7ana = elle est contente." },
     { fr: "La joie", da: "L-fer7a", ar: "الفرحة" },
@@ -90,7 +90,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "nourriture", icon: "utensils", title: "Nourriture & repas", group: "Vie quotidienne",
+  id: "nourriture", icon: "🍽️", title: "Nourriture & repas", group: "Vie quotidienne",
   items: [
     { fr: "La nourriture / le repas", da: "L-makla", ar: "الماكلة", note: "L-makla mzyana = c'est bon !" },
     { fr: "Manger", da: "Kla", ar: "كلا", note: "Klit = j'ai mangé. Kul ! = mange ! (impératif)." },
@@ -123,7 +123,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "fruits-legumes", icon: "apple", title: "Fruits & légumes", group: "Vie quotidienne",
+  id: "fruits-legumes", icon: "🍊", title: "Fruits & légumes", group: "Vie quotidienne",
   items: [
     { fr: "L'orange (fruit)", da: "Limoun", ar: "ليمون", note: "PIÈGE : limoun = orange au Maroc, pas citron !" },
     { fr: "Le citron", da: "7amed", ar: "حامض", note: "Litt. « acide »." },
@@ -154,7 +154,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "epices-cuisine", icon: "utensils", title: "Épices & cuisine", group: "Vie quotidienne",
+  id: "epices-cuisine", icon: "🧂", title: "Épices & cuisine", group: "Vie quotidienne",
   items: [
     { fr: "Les épices", da: "L-3atriya", ar: "العطرية" },
     { fr: "Le sel", da: "L-mel7a", ar: "الملحة" },
@@ -185,7 +185,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "boissons-cafe", icon: "coffee", title: "Boissons & café", group: "Vie quotidienne",
+  id: "boissons-cafe", icon: "🍵", title: "Boissons & café", group: "Vie quotidienne",
   items: [
     { fr: "Le thé (à la menthe)", da: "Atay", ar: "أتاي", note: "L'institution nationale ! Atay b n-n3na3." },
     { fr: "Le café", da: "9a8wa", ar: "قهوة", note: "Désigne la boisson ET le café (lieu)." },
@@ -208,7 +208,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "maison", icon: "home", title: "Maison & logement", group: "Vie quotidienne",
+  id: "maison", icon: "🏠", title: "Maison & logement", group: "Vie quotidienne",
   items: [
     { fr: "La maison", da: "Dar", ar: "دار", note: "Féminin ! D-dar. Pluriel : Dyour. Désigne aussi le foyer/la famille." },
     { fr: "L'appartement", da: "Brtma", ar: "برطمة", note: "Du français « appartement ». Aussi : appartma." },
@@ -241,7 +241,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "ville", icon: "map", title: "La ville & les lieux", group: "Vie quotidienne",
+  id: "ville", icon: "🕌", title: "La ville & les lieux", group: "Vie quotidienne",
   items: [
     { fr: "La ville", da: "L-mdina", ar: "المدينة", note: "Pluriel : Mdun. La vieille ville = l-mdina l-9dima." },
     { fr: "La campagne / le bled", da: "L-3rubiya / L-blad", ar: "العروبية", note: "L-blad = aussi le pays d'origine." },
@@ -272,7 +272,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "directions", icon: "compass", title: "Directions & se repérer", group: "Vie quotidienne",
+  id: "directions", icon: "🧭", title: "Directions & se repérer", group: "Vie quotidienne",
   items: [
     { fr: "Où se trouve… ?", da: "Fin kayn… ?", ar: "فين كاين...؟", note: "Fin kayna la-gare ? (kayna car féminin)." },
     { fr: "Ici", da: "8na / 8naya", ar: "هنا" },
@@ -297,7 +297,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "transports", icon: "car", title: "Transports & taxi", group: "Vie quotidienne",
+  id: "transports", icon: "🚕", title: "Transports & taxi", group: "Vie quotidienne",
   items: [
     { fr: "La voiture", da: "Tomobil", ar: "طوموبيل", note: "Féminin : T-tomobil dyali zwina.", reg: "Nord : Coche (espagnol) !" },
     { fr: "Le petit taxi (en ville)", da: "Taxi sghir", ar: "طاكسي صغير", note: "Rouge à Casa, bleu à Rabat, ocre à Marrakech. Ne sort jamais de la ville." },
@@ -325,7 +325,7 @@ window.DATA.vocab.push(
   ]
 },
 {
-  id: "souk", icon: "shopping", title: "Souk, achats & négociation", group: "Vie quotidienne",
+  id: "souk", icon: "🛍️", title: "Souk, achats & négociation", group: "Vie quotidienne",
   items: [
     { fr: "Acheter", da: "Shra", ar: "شرى", note: "Shrit = j'ai acheté. Gha n-shri = je vais acheter." },
     { fr: "Vendre", da: "Ba3", ar: "باع", note: "Kay-bi3 = il vend." },

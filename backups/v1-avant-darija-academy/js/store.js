@@ -13,9 +13,6 @@ const Store = (() => {
   S.srs = S.srs || {};            // wordKey -> {box:0-5, due:timestamp}
   S.lessons = S.lessons || {};    // lessonId -> true (lue)
   S.exos = S.exos || {};          // serieId -> best %
-  S.inf = S.inf || {best:0, total:0, correct:0, sessions:0};  // mode infini
-  S.cfg = S.cfg || {};            // configurations (infini, flashcards)
-  S.flags = S.flags || {};        // onboarding, etc.
 
   function save() { localStorage.setItem(K, JSON.stringify(S)); }
 
@@ -78,19 +75,10 @@ const Store = (() => {
   function setExoScore(id, pct) { if (!S.exos[id] || pct > S.exos[id]) { S.exos[id] = pct; save(); } }
   function exoScore(id) { return S.exos[id] || 0; }
 
-  function infRecord(streak, total, correct) {
-    S.inf.sessions++; S.inf.total += total; S.inf.correct += correct;
-    if (streak > S.inf.best) S.inf.best = streak; save();
-  }
-  function getCfg(k, def) { return S.cfg[k] !== undefined ? S.cfg[k] : def; }
-  function setCfg(k, v) { S.cfg[k] = v; save(); }
-  function flag(k, v) { if (v === undefined) return !!S.flags[k]; S.flags[k] = v; save(); }
-  function lessonsDoneCount() { return Object.keys(S.lessons).length; }
-  function reset() { S = {xp:0, days:{}, chapters:{}, srs:{}, lessons:{}, exos:{}, inf:{best:0,total:0,correct:0,sessions:0}, cfg:S.cfg, flags:S.flags}; save(); }
+  function reset() { S = {xp:0, days:{}, chapters:{}, srs:{}, lessons:{}, exos:{}}; save(); }
 
   return { get xp(){return S.xp;}, addXP, streak, level, levelProgress,
            chapter, setChapterSeen, setQuizScore,
            srsGet, srsSeen, srsAnswer, srsDueCount, srsKnownCount,
-           markLesson, lessonDone, lessonsDoneCount, setExoScore, exoScore, reset,
-           get inf(){return S.inf;}, infRecord, getCfg, setCfg, flag };
+           markLesson, lessonDone, setExoScore, exoScore, reset };
 })();

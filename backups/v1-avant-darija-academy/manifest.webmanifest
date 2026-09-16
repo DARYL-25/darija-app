@@ -1,14 +1,14 @@
 {
-  "name": "Darija Academy — Apprends le marocain",
+  "name": "Darija — Apprends le marocain",
   "short_name": "Darija",
-  "description": "Apprendre le darija marocain et l'arabe standard : théorie complète, 2 600 mots avec variantes régionales, conjugaison, flashcards et mode infini.",
+  "description": "Apprendre le darija marocain : phonétique, vocabulaire, conjugaison, quiz et régions.",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#2a0609",
-  "theme_color": "#2a0609",
+  "background_color": "#C1272D",
+  "theme_color": "#C1272D",
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
